@@ -3,10 +3,6 @@
 http://175.155.106.72:89/live1/live1.m3u8?zsicd
 #EXTINF:-1 group-title="中央台" tvg-id="CCTV-2",CCTV-2(1080P)
 http://112.123.206.32:808/hls/2/index.m3u8
-#EXTINF:-1 group-title="中央台" tvg-id="CCTV-5+",CCTV-5+(1080P)
-http://dmggg.tyzb.fun:26355/migu/957668440.m3u8?migutoken=a5b2ad2080c168f6fb3d89efdc1cada61da8ffd9a711c798415514d86ef98e16d610a5a9984878d6d5d0e4aa1e03c290a952f022a6380a15ddcc5955571367e2954a9a9e29d1ef521a07b0ee
-#EXTINF:-1 group-title="中央台" tvg-id="CCTV-13",CCTV-13(1080P)
-http://ali-m-l.cztv.com/channels/lantian/channel21/1080p.m3u8
 #EXTINF:-1 group-title="中央台" tvg-id="CGTN" tvg-logo="https://live.fanmingming.com/tv/CGTN.png",CGTN(720P)
 https://0472.org/hls/cgtn.m3u8
 #EXTINF:-1 group-title="中央台" tvg-id="CGTN记录" tvg-logo="https://live.fanmingming.com/tv/CGTN.png",CGTN记录
@@ -46,6 +42,8 @@ http://live1.gatv.com.cn:85/live/GGPD.m3u8
 https://m3u8.channel.dzsm.com/nmip-media/channellive/channel105549/playlist.m3u8
 #EXTINF:-1 group-title="四川台" tvg-name="宝兴综合" tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/宝兴综合.png",宝兴综合
 rtmp://tv.yunxya.com:1937/channellive/baoxing
+#EXTINF:-1 group-title="四川台" tvg-name="旺苍综合" tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/沐川综合.png",旺苍综合
+http://channel.wcrmt.cn:80/nmip-media/channellive/channel105268/playlist.m3u8
 #EXTINF:-1 group-title="四川台" tvg-name="沐川综合" tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/沐川综合.png",沐川综合
 rtmp://tv.mcrm.org.cn:1935/channellive/tv01
 #EXTINF:-1 group-title="四川台" tvg-name="石棉综合" tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/石棉综合.png",石棉综合
@@ -56,7 +54,8 @@ http://222.179.42.129:8181/hls1.m3u8?zzhongqd
 http://183.64.174.171:40123/ch1.m3u8?zzhongqd
 #EXTINF:-1 group-title="重庆台" tvg-name="垫江综合" tvg-logo="https://proxy.pipers.cn/https://raw.githubusercontent.com/fanmingming/live/main/tv/垫江综合.png",垫江综合
 rtmp://play-sh.quklive.com/live/1672366847646284
-
+#EXTINF:-1 group-title="少儿台" tvg-name="名侦探柯南",名侦探柯南
+http://iptv.jxpan.vip:18888/aio/huya/30080236
 #EXTINF:-1 group-title="江苏台" tvg-name="苏州新闻综合" tvg-logo="https://proxy.pipers.cn/https://raw.githubusercontent.com/fanmingming/live/main/tv/嘉兴新闻综合.png",苏州新闻综合(1080P)
 https://live-auth.51kandianshi.com/szgd/csztv1.m3u8
 #EXTINF:-1 group-title="江苏台" tvg-name="苏州社会经济" tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/苏州社会经济.png",苏州社会经济(1080P)
