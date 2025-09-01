@@ -1,14 +1,20 @@
 #EXTM3U
+#EXTINF:-1 group-title="四川台" tvg-id="乐至综合",乐至综合
+http://175.155.106.72:89/live1/live1.m3u8?zsicd
+#EXTINF:-1 group-title="中央台" tvg-id="CGTN" tvg-logo="https://live.fanmingming.com/tv/CGTN.png",CGTN(720P)
+https://0472.org/hls/cgtn.m3u8
+#EXTINF:-1 group-title="中央台" tvg-id="CGTN记录" tvg-logo="https://live.fanmingming.com/tv/CGTN.png",CGTN记录
+https://0472.org/hls/cgtnd.m3u8
+
 #EXTINF:-1 group-title="卫视台" tvg-id="陕西卫视" tvg-logo="https://live.fanmingming.com/tv/陕西卫视.png",陕西卫视(360P)
 http://stream.snrtv.com/sxbc-star-tBRUZ8.m3u8
 #EXTINF:-1 group-title="卫视台" tvg-id="延边卫视" tvg-logo="https://live.fanmingming.com/tv/陕西卫视.png",延边卫视
 https://srs.iyb983.cn/video/CYS/index.m3u8
-#EXTINF:-1 group-title="卫视台" tvg-id="西藏卫视" tvg-logo="https://live.fanmingming.com/tv/西藏卫视.png",西藏卫视(1080P)
-https://tv.vtibet.cn/live/h701F9MpxzPDyE.m3u8?secret=4d8716efdc53ea735e17c0f892c4dfe6&time=68b25c76
 #EXTINF:-1 group-title="卫视台" tvg-name="河南卫视" tvg-logo="https://proxy.pipers.cn/https://raw.githubusercontent.com/fanmingming/live/main/tv/河南卫视.png",河南卫视(1080P)
 http://1.94.31.214/php/hntv.php?id=hnws
 #EXTINF:-1 group-title="卫视台" tvg-name="兵团卫视" tvg-id="兵团卫视" tvg-logo="https://livecdn.zbds.org/logo/兵团卫视.png", 兵团卫视
 http://liveout.btzx.com.cn/62ds9e/yil08g.m3u8
+
 #EXTINF:-1 group-title="河北台" tvg-name="河北4K" tvg-id="河北4K" tvg-logo="https://livecdn.zbds.org/logo/河北4K.png", 河北4K
 https://event.pull.hebtv.com:443/live/live101.m3u8
 #EXTINF:-1 group-title="四川台" tvg-name="四川科教" tvg-id="四川科教" tvg-logo="https://livecdn.zbds.org/logo/四川科教.png", 四川科教
