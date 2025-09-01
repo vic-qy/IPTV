@@ -8,4 +8,4 @@
 
 复制链接使用 IPTV 播放器打开：https://raw.githubusercontent.com/vic-qy/IPTV/main/IPTV.m3u
 
-<span style="color:red">UPDATE 2025/8/31</span>
+<span style="color:red">UPDATE 2025/9/01</span>
