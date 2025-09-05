@@ -3,9 +3,13 @@
 ## 本项目使用到的相关源:
 
 [hujingguang/ChinaIPTV](https://raw.githubusercontent.com/hujingguang/ChinaIPTV/main/cnTV_AutoUpdate.m3u8)
+
 [Guovin/iptv-api](https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u)
+
 [IPV4 卫视频道](https://live.hacks.tools/tv/ipv4/categories/卫视频道.m3u)
 
-复制链接使用 IPTV 播放器打开：https://raw.githubusercontent.com/vic-qy/IPTV/main/IPTV.m3u
+[kilvn/iptv](https://live.kilvn.com/)
 
-<span style="color:red">UPDATE 2025/9/01</span>
+复制链接直接使用 IPTV 播放器打开：https://raw.githubusercontent.com/vic-qy/IPTV/main/IPTV.m3u
+
+<span style="color:red">UPDATE 2025/9/05</span>
