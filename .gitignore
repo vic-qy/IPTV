@@ -1,9 +1,3 @@
-down.py
-TianmuTNT_iptv.py
-chinaiptv.py
-chinaiptv.m3u
-hongkong.m3u
-kilvn.m3u
-kilvn_ouput.m3u
-TianmuTNT_iptv.m3u
+downloader.py
+Kilvn_IPTV.m3u
 __pycache__/

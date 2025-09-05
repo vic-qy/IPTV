@@ -9,6 +9,8 @@ http://iptv.huuc.edu.cn/hls/cctv3hd.m3u8
 http://iptv.huuc.edu.cn/hls/cctv4hd.m3u8
 #EXTINF:-1 group-title="中央台" tvg-id="CCTV-5",CCTV-5(1080P)
 http://iptv.huuc.edu.cn/hls/cctv5hd.m3u8
+#EXTINF:-1 group-title="中央台" tvg-id="CCTV-5+",CCTV-5+(1080P)
+http://iptv.huuc.edu.cn/hls/cctv5phd.m3u8
 #EXTINF:-1 group-title="中央台" tvg-id="CCTV-6",CCTV-6(1080P)
 http://iptv.huuc.edu.cn/hls/cctv6hd.m3u8
 #EXTINF:-1 group-title="中央台" tvg-id="CCTV-7",CCTV-7(1080P)
@@ -29,7 +31,7 @@ https://0472.org/hls/cgtn.m3u8
 https://0472.org/hls/cgtnd.m3u8
 #EXTINF:-1 group-title="中央台" tvg-id="CGTN俄语" tvg-logo="https://live.fanmingming.com/tv/CGTN.png",CGTN俄语
 http://russian-livews.cgtn.com/hls/LSvexABhNipibK5KRuUkvHZ7220802LSTeze9o8tdFXMHsb1VosgoT220802cd.m3u8
-#EXTINF:-1 group_title="卫视台" tvg-id="北京卫视",北京卫视
+#EXTINF:-1 group-title="卫视台" tvg-id="北京卫视",北京卫视
 http://iptv.huuc.edu.cn/hls/btv1hd.m3u8
 #EXTINF:-1 group-title="卫视台" tvg-id="陕西卫视" tvg-logo="https://live.fanmingming.com/tv/陕西卫视.png",陕西卫视(360P)
 http://stream.snrtv.com/sxbc-star-tBRUZ8.m3u8
@@ -37,11 +39,11 @@ http://stream.snrtv.com/sxbc-star-tBRUZ8.m3u8
 https://srs.iyb983.cn/video/CYS/index.m3u8
 #EXTINF:-1 group-title="卫视台" tvg-name="河南卫视" tvg-logo="https://proxy.pipers.cn/https://raw.githubusercontent.com/fanmingming/live/main/tv/河南卫视.png",河南卫视(1080P)
 http://1.94.31.214/php/hntv.php?id=hnws
-#EXTINF:-1 group-title="卫视台" tvg-name="海峡卫视",海峡卫视
+#EXTINF:-1 group-title="卫视台" tvg-name="海峡卫视",海峡卫视(Not 24H)
 https://live1-fuyun.fjtv.net/haixiapd/hd/live.m3u8?_upt=bec1b6ad1757008948
 #EXTINF:-1 group-title="卫视台" tvg-name="兵团卫视" tvg-id="兵团卫视" tvg-logo="https://livecdn.zbds.org/logo/兵团卫视.png", 兵团卫视
 http://liveout.btzx.com.cn/62ds9e/yil08g.m3u8
-#EXTINF:-1 group-title="卫视台" tvg-title="西藏卫视",西藏卫视
+#EXTINF:-1 group-title="卫视台" tvg-title="西藏卫视",西藏卫视(Not 24H)
 https://tv.vtibet.cn/live/h701F9MpxzPDyE.m3u8?secret=c79b3557ab7ece2d897afab416091c4e&time=68b9b8e0
 #EXTINF:-1 group-title="四川台" tvg-id="乐至综合",乐至综合
 http://175.155.106.72:89/live1/live1.m3u8?zsicd
