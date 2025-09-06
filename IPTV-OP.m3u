@@ -132,9 +132,6 @@ rtmp://play-sh.quklive.com/live/1672366847646284
 https://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
 #EXTINF:-1 group-title="少儿台" tvg-name="名侦探柯南",名侦探柯南
 http://iptv.jxpan.vip:18888/aio/huya/30080236
-#EXTINF:-1 group-title="少儿台" tvg-name="江西少儿", 江西少儿
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/
-webview://https://www.jxntv.cn/live/#/jxtv6
 #EXTINF:-1 group-title="少儿台" tvg-name="内蒙古少儿",内蒙古少儿
 http://play1-qk.nmtv.cn/live/1686560464515368.m3u8
 #EXTINF:-1 group-title="江苏台" tvg-name="苏州新闻综合" tvg-logo="https://proxy.pipers.cn/https://raw.githubusercontent.com/fanmingming/live/main/tv/嘉兴新闻综合.png",苏州新闻综合(1080P)
@@ -189,7 +186,6 @@ https://l.cztvcloud.com/channels/lantian/SXxiaoshan1/720p.m3u8
 http://l.cztvcloud.com/channels/lantian/SXqujiang1/720p.m3u8?zzhed
 #EXTINF:-1 group-title="浙江台" tvg-name="嘉兴公共" tvg-logo="https://proxy.pipers.cn/https://raw.githubusercontent.com/fanmingming/live/main/tv/嘉兴公共.png",嘉兴公共
 http://play-sh13.quklive.com/live/1675149601192103.m3u8?auth_key=2028730429-9ab7f7f0267946e880ec46ce3d57ec9e-0-eb04d7f7e549054293604b04150cefa1
-https://live-auth.51kandianshi.com/szgd/csztv1.m3u8
 #EXTINF:-1 group-title="浙江台" tvg-name="嘉兴文化影视" tvg-logo="https://proxy.pipers.cn/https://raw.githubusercontent.com/fanmingming/live/main/tv/嘉兴文化影视.png",嘉兴文化影视
 http://play-sh13.quklive.com/live/1675149625220101.m3u8?auth_key=2028730374-3a60eb8e324f416aa3b26dda7679d920-0-22dc7efa8452d0b0665c15eeed83609d
 #EXTINF:-1 group-title="浙江台" tvg-name="云和新闻综合" tvg-id="云和新闻综合" tvg-logo="https://livecdn.zbds.org/logo/云和新闻综合.png", 云和新闻综合
@@ -212,12 +208,6 @@ http://live.shaoxing.com.cn/video/s10001-sxtv3/index.m3u8
 http://hzcm-live.media.hugd.com/1e6b554b9ab74513958c0e1ffe664d22/9acaa7634309494cb29a85eb12136607.m3u8?auth_key=2272900830-9a2389b8bf4e49d580d4ad807423d326-0-ea78a5c7a678c436263582d368f5009e
 #EXTINF:-1 group-title="浙江台" tvg-name="海宁新闻综合" tvg-logo="https://proxy.pipers.cn/https://raw.githubusercontent.com/fanmingming/live/main/tv/海宁新闻综合.png",海宁新闻综合
 https://p2hs.vzan.com/slowlive/317913155078575177/live.m3u8
-#EXTINF:-1 group-title="江西台" tvg-name="江西都市", 江西都市
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/
-webview://https://www.jxntv.cn/live/#/jxtv2
-#EXTINF:-1 group-title="江西台" tvg-name="江西公共·农业", 江西公共·农业
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/
-webview://https://www.jxntv.cn/live/#/jxtv5
 #EXTINF:-1 group-title="福建台" tvg-name="晋江电视台" tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/晋江电视台.png",晋江电视台
 http://stream.jinjiang.tv/1/sd/live.m3u8?zfud
 #EXTINF:-1 group-title="河南台" tvg-name="河南都市" tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/河南都市.png",河南都市
