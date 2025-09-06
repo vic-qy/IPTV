@@ -281,6 +281,12 @@ https://stream.hrbtv.net/shpd/sd/live.m3u8
 #EXTINF:-1 group-title="少儿台" tvg-name="广东少儿",广东少儿
 #EXTVLCOPT:http-referrer=https://www.gdtv.cn/
 webview://https://www.gdtv.cn/tvChannelDetail/54
+#EXTINF:-1 group-title="少儿台" tvg-name="嘉佳卡通", 嘉佳卡通
+#EXTVLCOPT:http-referrer=https://www.gdtv.cn/
+webview://https://www.gdtv.cn/tvChannelDetail/66
+#EXTINF:-1 group-title="广东台" tvg-name="广东民生",广东民生
+#EXTVLCOPT:http-referrer=https://www.gdtv.cn/
+webview://https://www.gdtv.cn/tvChannelDetail/48
 #EXTINF:-1 group-title="广东台" tvg-name="GRTN 文化频道",GRTN 文化频道
 #EXTVLCOPT:http-referrer=https://www.gdtv.cn/
 webview://https://www.gdtv.cn/tvChannelDetail/75
