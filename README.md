@@ -10,6 +10,6 @@
 
 [kilvn/iptv](https://live.kilvn.com/)
 
-复制链接直接使用 IPTV 播放器打开：https://raw.githubusercontent.com/vic-qy/IPTV/main/IPTV.m3u
+[suxuang/myIPTV](https://proxy.pipers.cn/https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u)
 
-<span style="color:red">UPDATE 2025/9/05</span>
+<span style="color:red">UPDATE 2025/9/07</span>

@@ -103,6 +103,8 @@ https://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
 http://iptv.jxpan.vip:18888/aio/huya/30080236
 #EXTINF:-1 group-title="少儿台" tvg-name="内蒙古少儿",内蒙古少儿
 http://play1-qk.nmtv.cn/live/1686560464515368.m3u8
+#EXTINF:-1 tvg-id="五星体育" tvg-name="五星体育" tvg-logo="https://live.fanmingming.cn/tv/五星体育.png" group-title="华东台",五星体育
+http://8.138.7.223/tv/shtv.php?id=wxty
 #EXTINF:-1 group-title="华东台" tvg-name="苏州新闻综合" tvg-logo="https://proxy.pipers.cn/https://raw.githubusercontent.com/fanmingming/live/main/tv/嘉兴新闻综合.png",苏州新闻综合(1080P)
 https://live-auth.51kandianshi.com/szgd/csztv1.m3u8
 #EXTINF:-1 group-title="华东台" tvg-name="苏州社会经济" tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/苏州社会经济.png",苏州社会经济(1080P)
