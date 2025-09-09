@@ -12,4 +12,4 @@
 
 [suxuang/myIPTV](https://proxy.pipers.cn/https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u)
 
-<span style="color:red">UPDATE 2025/9/07</span>
+<span style="color:red">UPDATE 2025/9/09</span>
