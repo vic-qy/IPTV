@@ -46,6 +46,8 @@ http://russian-livews.cgtn.com/hls/LSvexABhNipibK5KRuUkvHZ7220802LSTeze9o8tdFXMH
 #EXTINF:-1 group-title="中央台" tvg-id="iPanda熊猫频道",iPanda熊猫频道
 https://gcwbndali.v.myalicdn.com/gcwbnd/ipanda1000_2/index.m3u8
 
+#EXTINF:-1 group-title="卫视台" tvg-id="四川卫视",四川卫视
+http://iptv.huuc.edu.cn/hls/schd.m3u8
 #EXTINF:-1 group-title="卫视台" tvg-id="北京卫视",北京卫视
 http://iptv.huuc.edu.cn/hls/btv1hd.m3u8
 #EXTINF:-1 group-title="卫视台" tvg-id="湖南卫视",湖南卫视
@@ -78,11 +80,6 @@ https://srs.iyb983.cn/video/CYS/index.m3u8
 http://1.94.31.214/php/hntv.php?id=hnws
 #EXTINF:-1 group-title="卫视台" tvg-name="兵团卫视" tvg-id="兵团卫视" tvg-logo="https://livecdn.zbds.org/logo/兵团卫视.png", 兵团卫视
 http://liveout.btzx.com.cn/62ds9e/yil08g.m3u8
-
-#EXTINF:-1 group-title="华北台" tvg-name="河北4K" tvg-id="河北4K" tvg-logo="https://livecdn.zbds.org/logo/河北4K.png", 河北4K
-https://event.pull.hebtv.com:443/live/live101.m3u8
-#EXTINF:-1 group-title="华北台" tvg-name="清河新闻综合" tvg-id="清河新闻综合", 清河新闻综合
-https://jwcdnqx.hebyun.com.cn/live/qinghe/1500k/tzwj_video.m3u8
 
 #EXTINF:-1 group-title="西南台" tvg-name="四川科教" tvg-id="四川科教" tvg-logo="https://livecdn.zbds.org/logo/四川科教.png", 四川科教
 http://182.150.115.21:8030/pcgacg/pcgacg_0.m3u8
@@ -219,6 +216,11 @@ https://pili-live-hls-sjxgz2024.sobeylive.com/jxgz2024/396_q_live172526335287668
 
 #EXTINF:-1 group-title="华东台" tvg-name="晋江电视台" tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/晋江电视台.png",晋江电视台
 http://stream.jinjiang.tv/1/sd/live.m3u8?zfud
+
+#EXTINF:-1 group-title="华北台" tvg-name="河北4K" tvg-id="河北4K" tvg-logo="https://livecdn.zbds.org/logo/河北4K.png", 河北4K
+https://event.pull.hebtv.com:443/live/live101.m3u8
+#EXTINF:-1 group-title="华北台" tvg-name="清河新闻综合" tvg-id="清河新闻综合", 清河新闻综合
+https://jwcdnqx.hebyun.com.cn/live/qinghe/1500k/tzwj_video.m3u8
 
 #EXTINF:-1 group-title="华中台" tvg-name="河南都市" tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/河南都市.png",河南都市
 http://1.94.31.214/php/hntv.php?id=hnds
