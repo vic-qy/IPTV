@@ -134,6 +134,8 @@ http://8.138.7.223/tv/shtv.php?id=wxty
 http://8.138.7.223/tv/shtv.php?id=xwzh
 #EXTINF:-1 tvg-id="上海都市" tvg-name="上海都市" tvg-logo="https://live.fanmingming.cn/tv/上海都市.png" group-title="华东台",上海都市
 http://8.138.7.223/tv/shtv.php?id=ds
+#EXTINF:-1 tvg-id="乐游" tvg-name="乐游" tvg-logo="https://live.fanmingming.cn/tv/乐游.png" group-title="华东台",上海乐游频道
+http://8.138.7.223/tv/shtv.php?id=ly
 
 #EXTINF:-1 group-title="华东台" tvg-name="苏州新闻综合" tvg-logo="https://proxy.pipers.cn/https://raw.githubusercontent.com/fanmingming/live/main/tv/嘉兴新闻综合.png",苏州新闻综合(1080P)
 https://live-auth.51kandianshi.com/szgd/csztv1.m3u8
@@ -221,8 +223,22 @@ http://stream.jinjiang.tv/1/sd/live.m3u8?zfud
 
 #EXTINF:-1 group-title="华北台" tvg-name="河北4K" tvg-id="河北4K" tvg-logo="https://livecdn.zbds.org/logo/河北4K.png", 河北4K
 https://event.pull.hebtv.com:443/live/live101.m3u8
+#EXTINF:-1 tvg-name="石家庄新闻综合" tvg-logo="https://live.fanmingming.cn/tv/石家庄新闻综合.png" group-title="华北台",石家庄新闻综合
+http://nn.7x9d.cn/石家庄.php?id=4
+#EXTINF:-1 tvg-name="石家庄城市服务" tvg-logo="https://live.fanmingming.cn/tv/石家庄城市服务.png" group-title="华北台",石家庄城市服务
+http://nn.7x9d.cn/石家庄.php?id=5
+#EXTINF:-1 tvg-name="石家庄文化娱乐" tvg-logo="https://live.fanmingming.cn/tv/石家庄文化娱乐.png" group-title="华北台",石家庄文化娱乐
+http://nn.7x9d.cn/石家庄.php?id=6
+#EXTINF:-1 tvg-name="邢台综合" tvg-logo="https://live.fanmingming.cn/tv/邢台综合.png" group-title="华北台",邢台综合
+http://jwplay.hebyun.com.cn/live/xtsrmtzs/1500k/tzwj_video.m3u8
+#EXTINF:-1 tvg-name="邢台生活" tvg-logo="https://live.fanmingming.cn/tv/邢台生活.png" group-title="华北台",邢台生活
+https://jwcdnqx.hebyun.com.cn/live/xtcsshpd/1500k/tzwj_video.m3u8
 #EXTINF:-1 group-title="华北台" tvg-name="清河新闻综合" tvg-id="清河新闻综合", 清河新闻综合
 https://jwcdnqx.hebyun.com.cn/live/qinghe/1500k/tzwj_video.m3u8
+#EXTINF:-1 tvg-name="邯郸公共频道" tvg-logo="https://live.fanmingming.cn/tv/邯郸公共频道.png" group-title="华北台",邯郸公共频道
+https://jwcdnqx.hebyun.com.cn/live/hdgg/1500k/tzwj_video.m3u8
+#EXTINF:-1 tvg-name="邯郸科技教育" tvg-logo="https://live.fanmingming.cn/tv/邯郸科技教育.png" group-title="华北台",邯郸科技教育
+https://jwcdnqx.hebyun.com.cn/live/hdkj/1500k/tzwj_video.m3u8
 
 #EXTINF:-1 group-title="华中台" tvg-name="河南都市" tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/河南都市.png",河南都市
 http://1.94.31.214/php/hntv.php?id=hnds
@@ -343,6 +359,8 @@ http://iptv.jxpan.vip:18888/aio/huya/11342386
 http://iptv.jxpan.vip:18888/aio/huya/11352935
 #EXTINF:-1 tvg-name="贺岁电影" group-title="直播源",贺岁电影
 http://iptv.jxpan.vip:18888/aio/huya/11601986
+#EXTINF:-1 tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/雪豹.png" group-title="直播源",雪豹
+http://iptv.jxpan.vip:18888/aio/huya/29580970
 
 #EXTINF:-1 tvg-name="家庭剧场" tvg-logo="https://live.fanmingming.cn/tv/家庭剧场.png" group-title="影视剧",家庭剧场
 http://[2409:8087:1a15:10d1::36]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225677/index.m3u8
