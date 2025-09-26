@@ -258,6 +258,12 @@ http://stream.jinjiang.tv/1/sd/live.m3u8?zfud
 # 华东-山东
 #EXTINF:-1 group-title="华东台" tvg-id="山东教育卫视",山东教育卫视
 https://test1.live.sdetv.com.cn/live/dianshizhibo/playlist.m3u8
+#EXTINF:-1 group-title="华东台" tvg-id="QTV-1",QTV-1
+https://video10.qtv.com.cn/drm/qtv1at/manifest.m3u8
+#EXTINF:-1 group-title="华东台" tvg-id="QTV-3",QTV-3
+https://video10.qtv.com.cn/drm/qtv3at/manifest.m3u8
+#EXTINF:-1 group-title="华东台" tvg-id="QTV-5",QTV-5
+https://video10.qtv.com.cn/drm/qtv6at/manifest.m3u8
 
 # 华北-河北
 #EXTINF:-1 group-title="华北台" tvg-name="河北4K" tvg-id="河北4K" tvg-logo="https://livecdn.zbds.org/logo/河北4K.png", 河北4K
