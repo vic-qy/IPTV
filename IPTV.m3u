@@ -104,7 +104,7 @@ https://m3u8.channel.dzsm.com/nmip-media/channellive/channel101257/playlist.m3u8
 https://m3u8.channel.dzsm.com/nmip-media/channellive/channel100999/playlist.m3u8
 #EXTINF:-1 group-title="西南台" tvg-name="剑阁综合" tvg-id ="剑阁综合",剑阁综合
 https://m3u8.channel.dzsm.com/nmip-media/channellive/channel105549/playlist.m3u8
-#EXTINF:-1 group-title="西南台" tvg-name="广安公共" tvg-id="广安公共", 广安公共
+#EXTINF:-1 group-title="西南台" tvg-name="广安文旅乡村" tvg-id="广安文旅乡村", 广安文旅乡村
 http://live1.gatv.com.cn:85/live/GGPD.m3u8
 #EXTINF:-1 group-title="西南台" tvg-name="雅安新闻综合" tvg-id="雅安新闻综合",雅安新闻综合
 https://play.yunxya.com/channellive/xinwen.m3u8
@@ -258,12 +258,6 @@ http://stream.jinjiang.tv/1/sd/live.m3u8?zfud
 # 华东-山东
 #EXTINF:-1 group-title="华东台" tvg-id="山东教育卫视",山东教育卫视
 https://test1.live.sdetv.com.cn/live/dianshizhibo/playlist.m3u8
-#EXTINF:-1 group-title="华东台" tvg-id="QTV-1",QTV-1
-https://video10.qtv.com.cn/drm/qtv1at/manifest.m3u8
-#EXTINF:-1 group-title="华东台" tvg-id="QTV-3",QTV-3
-https://video10.qtv.com.cn/drm/qtv3at/manifest.m3u8
-#EXTINF:-1 group-title="华东台" tvg-id="QTV-5",QTV-5
-https://video10.qtv.com.cn/drm/qtv6at/manifest.m3u8
 
 # 华北-河北
 #EXTINF:-1 group-title="华北台" tvg-name="河北4K" tvg-id="河北4K" tvg-logo="https://livecdn.zbds.org/logo/河北4K.png", 河北4K
