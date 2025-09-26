@@ -104,6 +104,8 @@ https://m3u8.channel.dzsm.com/nmip-media/channellive/channel101257/playlist.m3u8
 https://m3u8.channel.dzsm.com/nmip-media/channellive/channel100999/playlist.m3u8
 #EXTINF:-1 group-title="西南台" tvg-name="剑阁综合" tvg-id ="剑阁综合",剑阁综合
 https://m3u8.channel.dzsm.com/nmip-media/channellive/channel105549/playlist.m3u8
+#EXTINF:-1 group-title="西南台" tvg-name="广安综合" tvg-id="广安综合", 广安综合
+https://live1.gatv.com.cn:90/live/XWZH.m3u8
 #EXTINF:-1 group-title="西南台" tvg-name="广安文旅乡村" tvg-id="广安文旅乡村", 广安文旅乡村
 http://live1.gatv.com.cn:85/live/GGPD.m3u8
 #EXTINF:-1 group-title="西南台" tvg-name="雅安新闻综合" tvg-id="雅安新闻综合",雅安新闻综合
