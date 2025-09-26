@@ -372,6 +372,32 @@ https://live2.hkbtv.cn/live/tv2502.m3u8
 #EXTINF:-1 group-title="华南台" tvg-name="海口城乡经济" tvg-id="海口生城乡经济",海口城乡经济
 https://live2.hkbtv.cn/live/tv2503.m3u8
 
+#影视剧
+#EXTINF:-1 tvg-name="扫黄先锋" group-title="影视剧",【港剧】扫黄先锋
+http://iptv.jxpan.vip:18888/aio/huya/29465855
+#EXTINF:-1 tvg-name="陀枪师姐" group-title="影视剧",【港剧】陀枪师姐
+http://iptv.jxpan.vip:18888/aio/huya/29465857
+#EXTINF:-1 tvg-name="洗冤录" group-title="影视剧",【港剧】洗冤录
+http://iptv.jxpan.vip:18888/aio/huya/29465851
+#EXTINF:-1 tvg-name="延禧攻略" group-title="影视剧",延禧攻略
+http://iptv.jxpan.vip:18888/aio/huya/26355864
+#EXTINF:-1 tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/雪豹.png" group-title="影视剧",雪豹
+http://iptv.jxpan.vip:18888/aio/huya/29580970
+#EXTINF:-1 tvg-name="武侠" group-title="影视剧",武侠
+http://iptv.jxpan.vip:18888/aio/huya/11342427
+#EXTINF:-1 tvg-name="成龙" group-title="影视剧",成龙
+http://iptv.jxpan.vip:18888/aio/huya/11342386
+#EXTINF:-1 tvg-name="甄子丹" group-title="影视剧",甄子丹
+http://iptv.jxpan.vip:18888/aio/huya/11352935
+#EXTINF:-1 tvg-name="贺岁电影" group-title="影视剧",贺岁电影
+http://iptv.jxpan.vip:18888/aio/huya/11601986
+#EXTINF:-1 tvg-id="搜狐剧场" tvg-name="搜狐剧场" tvg-logo="https://live.fanmingming.cn/tv/搜狐剧场.png" group-title="影视剧",搜狐剧场
+https://hdl-vip-ws.qf.56.com/live/lc_11730.flv
+#EXTINF:-1 tvg-name="重温经典" group-title="影视剧",重温经典
+http://8.138.7.223/tv/cwjd.php
+#EXTINF:-1 tvg-name="1905电影网" group-title="影视剧",1905电影网
+http://8.138.7.223/tv/1905.php?id=LIVE8J4LTCXPI7QJ5
+
 #港澳台
 #EXTINF:-1 tvg-name="翡翠台" tvg-logo="https://live.fanmingming.cn/tv/翡翠台.png" group-title="港澳台",翡翠台
 http://bxtv.3a.ink/api.php?id=fct
@@ -423,22 +449,6 @@ https://cdn8.163189.xyz/live/lhox/stream.m3u8
 https://cdn8.163189.xyz/live/lhrh/stream.m3u8
 #EXTINF:-1 tvg-id="环球电视" tvg-name="环球电视" tvg-logo="https://live.fanmingming.cn/tv/环球电视台.png" group-title="港澳台",环球电视
 http://utv1.hqtvzb.com:9999/hls/world.m3u8
-
-#影视剧
-#EXTINF:-1 tvg-name="扫黄先锋" group-title="影视剧",【港剧】扫黄先锋
-http://iptv.jxpan.vip:18888/aio/huya/29465855
-#EXTINF:-1 tvg-name="武侠" group-title="影视剧",武侠
-http://iptv.jxpan.vip:18888/aio/huya/11342427
-#EXTINF:-1 tvg-name="成龙" group-title="影视剧",成龙
-http://iptv.jxpan.vip:18888/aio/huya/11342386
-#EXTINF:-1 tvg-name="甄子丹" group-title="影视剧",甄子丹
-http://iptv.jxpan.vip:18888/aio/huya/11352935
-#EXTINF:-1 tvg-name="贺岁电影" group-title="影视剧",贺岁电影
-http://iptv.jxpan.vip:18888/aio/huya/11601986
-#EXTINF:-1 tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/雪豹.png" group-title="影视剧",雪豹
-http://iptv.jxpan.vip:18888/aio/huya/29580970
-#EXTINF:-1 tvg-id="搜狐剧场" tvg-name="搜狐剧场" tvg-logo="https://live.fanmingming.cn/tv/搜狐剧场.png" group-title="影视剧",搜狐剧场
-https://hdl-vip-ws.qf.56.com/live/lc_11730.flv
 
 #国际台
 #EXTINF:-1 tvg-id="CNA" tvg-name="CNA" group-title="国际台",CNA
