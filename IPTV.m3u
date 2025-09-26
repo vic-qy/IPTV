@@ -89,7 +89,7 @@ http://182.150.115.21:8030/pcgacg/pcgacg_0.m3u8
 #EXTINF:-1 group-title="西南台" tvg-name="内江综合" tvg-id="内江综合",内江综合
 https://njzb.scnj.tv/hls_njtv_direct/1.m3u8
 #EXTINF:-1 group-title="西南台" tvg-name="内江科教生活" tvg-id="内江科教生活",内江科教生活
-https://njzb.scnj.tv/hls_njtv_direct/1.m3u8
+https://njzb.scnj.tv/hls_njtv_direct/9.m3u8
 #EXTINF:-1 group-title="西南台" tvg-name="遂宁综合" tvg-id="遂宁综合",遂宁综合
 https://szyplaytv.snxw.com/live/xwzh/playlist.m3u8
 #EXTINF:-1 group-title="西南台" tvg-name="遂宁文化生活" tvg-id="遂宁文化生活",遂宁文化生活
