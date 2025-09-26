@@ -86,8 +86,6 @@ http://120.76.248.139/live/bfgd/4200000108.m3u8
 # 西南-四川
 #EXTINF:-1 group-title="西南台" tvg-name="四川科教" tvg-id="四川科教",四川科教
 http://182.150.115.21:8030/pcgacg/pcgacg_0.m3u8
-#EXTINF:-1 group-title="西南台" ,TEST
-http://www.nettvpro.xyz/api/channel.php?aid=8398
 #EXTINF:-1 group-title="西南台" tvg-name="内江综合" tvg-id="内江综合",内江综合
 https://njzb.scnj.tv/hls_njtv_direct/1.m3u8
 #EXTINF:-1 group-title="西南台" tvg-name="内江科教生活" tvg-id="内江科教生活",内江科教生活
@@ -124,10 +122,20 @@ http://channel.wcrmt.cn:80/nmip-media/channellive/channel105268/playlist.m3u8
 rtmp://tv.mcrm.org.cn:1935/channellive/tv01
 #EXTINF:-1 group-title="西南台" tvg-name="石棉综合" tvg-id="石棉综合",石棉综合
 rtmp://tv.yunxya.com:1937/channellive/shimian
+#EXTINF:-1 group-title="西南台" tvg-name="汉源综合" tvg-id="汉源综合",汉源综合
+http://tv.yunxya.com/channellive/hanyuan.flv
 #EXTINF:-1 group-title="西南台" tvg-name="泸州新闻综合" tvg-id="泸州新闻综合",泸州新闻综合
 https://m3u8.channel.luzhoubs.com/nmip-media/channellive/channel106011/playlist.m3u8
 #EXTINF:-1 group-title="西南台" tvg-name="泸州科教生活" tvg-id="泸州科教生活",泸州科教生活
 https://m3u8.channel.luzhoubs.com/nmip-media/channellive/channel103074/playlist.m3u8
+#EXTINF:-1 group-title="西南台" tvg-name="达州新闻综合" tvg-id="达州新闻综合",达州新闻综合
+https://file.dzxw.net/nmip-media/channellive/channel104234/playlist.m3u8
+#EXTINF:-1 group-title="西南台" tvg-name="达州文化生活" tvg-id="达州文化生活",达州文化生活
+https://file.dzxw.net/nmip-media/channellive/channel104727/playlist.m3u8
+#EXTINF:-1 group-title="西南台" tvg-name="宣汉综合" tvg-id="宣汉综合",宣汉综合
+http://livexuanhan.chinamcache.com/live/push1.m3u8
+#EXTINF:-1 group-title="西南台" tvg-name="威远综合" tvg-id="威远综合",威远综合
+https://wy-live-pull.thecover.cn/rmtlive/fmzb1710746907096.m3u8
 
 # 西南-重庆
 #EXTINF:-1 group-title="西南台" tvg-name="璧山综合" tvg-id="璧山综合",璧山综合
@@ -138,6 +146,10 @@ http://222.179.42.129:8181/hls1.m3u8?zzhongqd
 https://zhibo.puerw.cn/puer/c752b300-602c-4083-8c5e-f6bb97b58f2d.m3u8
 #EXTINF:-1 group-title="西南台" tvg-name="麻栗坡电视台" tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/麻栗坡电视台.png",麻栗坡电视台
 http://tvdrs.wsrtv.com.cn:8100/channellive/mlptv.flv?zyund
+
+# 西南-贵州
+#EXTINF:-1 group-title="西南台" tvg-name="七星关电视台" tvg-id="七星关电视台",七星关电视台
+https://p8.vzan.com/slowlive/147077707554082780/live.m3u8
 
 # 少儿
 #EXTINF:-1 tvg-name="浙江少儿" tvg-id="浙江少儿" tvg-logo="https://livecdn.zbds.org/logo/浙江少儿.png" group-title="少儿台", 浙江少儿
@@ -441,6 +453,8 @@ https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae04
 http://live-hls-web-aje.getaj.net/AJE/01.m3u8
 #EXTINF:-1 tvg-id="Arirang" tvg-name="Arirang" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/ArirangTV.png" group-title="国际台",Arirang
 https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/chunklist_b3256000_sleng.m3u8
+#EXTINF:-1 group-title="国际台",TBS(South Korea)
+https://cdntv.tbs.seoul.kr/tbs/_definst_/tbs_tv_web_720.smil/playlist.m3u8
 #EXTINF:-1 group-title="国际台",TBS
 http://143.244.60.30/TBS/index.m3u8
 #EXTINF:-1 group-title="国际台",Wild Earth
