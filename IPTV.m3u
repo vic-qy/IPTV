@@ -455,21 +455,24 @@ https://cdn8.163189.xyz/live/lhrh/stream.m3u8
 http://utv1.hqtvzb.com:9999/hls/world.m3u8
 
 #国际台
-#EXTINF:-1 tvg-id="CNA" tvg-name="CNA" group-title="国际台",CNA
+#EXTINF:-1 tvg-id="4MUSIC" tvg-name="4MUSIC" group-title="国际台",4MUSIC(UK)
+https://itthls.wns.live/hls/stream.m3u8
+https://4muhls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="CNA" tvg-name="CNA" group-title="国际台",CNA(SG)
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
-#EXTINF:-1 group-title="国际台" tvg-name="WionNews",WionNews
+#EXTINF:-1 group-title="国际台" tvg-name="WionNews",WionNews(IN)
 https://d7x8z4yuq42qn.cloudfront.net/index_7.m3u8
 #EXTINF:-1 tvg-name="ABC News Live" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/tv-logos/main/countries/united-states/abc-news-live-hz-us.png" group-title="国际台",ABC News Live
 https://d4ybyqrhce41r.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-xumo-linear-nbcu-hlsv3/master.m3u8?ads.channelId=99991626
-#EXTINF:-1 tvg-name="CBC News" tvg-logo="https://i.imgur.com/1EqQGKS.png" group-title="国际台",CBC News
+#EXTINF:-1 tvg-name="CBC News" tvg-logo="https://i.imgur.com/1EqQGKS.png" group-title="国际台",CBC News(CA)
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991276
-#EXTINF:-1 tvg-id="AlJaz" tvg-name="AlJazeera" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/AlJazeera.png" group-title="国际台",Al Jazeera
+#EXTINF:-1 tvg-id="AlJaz" tvg-name="AlJazeera" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/AlJazeera.png" group-title="国际台",Al Jazeera(QA)
 http://live-hls-web-aje.getaj.net/AJE/01.m3u8
-#EXTINF:-1 tvg-id="Arirang" tvg-name="Arirang" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/ArirangTV.png" group-title="国际台",Arirang
+#EXTINF:-1 tvg-id="Arirang" tvg-name="Arirang" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/ArirangTV.png" group-title="国际台",Arirang(KR)
 https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/chunklist_b3256000_sleng.m3u8
-#EXTINF:-1 group-title="国际台",TBS(South Korea)
+#EXTINF:-1 group-title="国际台",TBS(KR)
 https://cdntv.tbs.seoul.kr/tbs/_definst_/tbs_tv_web_720.smil/playlist.m3u8
-#EXTINF:-1 group-title="国际台",TBS
+#EXTINF:-1 group-title="国际台",TBS(JP)
 http://143.244.60.30/TBS/index.m3u8
 #EXTINF:-1 group-title="国际台",Wild Earth
 https://wildearth-plex.amagi.tv/masterR1080p.m3u8
