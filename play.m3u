@@ -1,4 +1,7 @@
-#EXTM3U
-#EXTINF:0 group-title="xxx",TEST
-#EXT-X-KEY:METHOD=AES-128,URI="https://ts.liheiat.xyz/videos5/eead592ae1efb30683d89e53e0635592/crypt.key?auth_key=1759067872-27-0-14002e21d71c399e3cf755396b029345"
-https://hls.usoryy.cn/videos5/eead592ae1efb30683d89e53e0635592/eead592ae1efb30683d89e53e0635592.m3u8?auth_key=1759066977-68d93b61488c2-0-d55bd512d5d9522de242b7ea8462829c&v=3&time=0
+# #EXTM3U
+# #EXTINF:0 group-title="xxx",TEST
+# #EXT-X-KEY:METHOD=AES-128,URI="https://ts.liheiat.xyz/videos5/eead592ae1efb30683d89e53e0635592/crypt.key?auth_key=1759067872-27-0-14002e21d71c399e3cf755396b029345"
+# https://hls.usoryy.cn/videos5/eead592ae1efb30683d89e53e0635592/eead592ae1efb30683d89e53e0635592.m3u8?auth_key=1759066977-68d93b61488c2-0-d55bd512d5d9522de242b7ea8462829c&v=3&time=0
+
+#EXTINF:0 group-title="电视剧-三更雪",01
+https://vip.dytt-cine.com/20250927/57195_58af68c1/index.m3u8
