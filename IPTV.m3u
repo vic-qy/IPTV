@@ -87,6 +87,16 @@ http://nn.7x9d.cn/地方台8563/海南.php?id=hnws
 http://120.76.248.139/live/bfgd/4200000108.m3u8
 
 # 西南-四川
+#EXTINF:-1 group-title="西南台" tvg-name="CDTV-1" tvg-id="CDTV-1",成都新闻综合
+https://www.u1112293.nyat.app:49630/?1
+#EXTINF:-1 group-title="西南台" tvg-name="CDTV-2" tvg-id="CDTV-2",成都经济资讯
+https://www.u1112293.nyat.app:49630/?2
+#EXTINF:-1 group-title="西南台" tvg-name="CDTV-3" tvg-id="CDTV-3",成都都市生活
+https://www.u1112293.nyat.app:49630/?3
+#EXTINF:-1 group-title="西南台" tvg-name="CDTV-4" tvg-id="CDTV-4",成都影视文艺
+https://www.u1112293.nyat.app:49630/?4
+#EXTINF:-1 group-title="西南台" tvg-name="CDTV-5" tvg-id="CDTV-5",成都公共
+https://www.u1112293.nyat.app:49630/?5
 #EXTINF:-1 group-title="西南台" tvg-name="四川科教" tvg-id="四川科教",四川科教
 http://182.150.115.21:8030/pcgacg/pcgacg_0.m3u8
 #EXTINF:-1 group-title="西南台" tvg-name="内江综合" tvg-id="内江综合",内江综合
@@ -155,18 +165,20 @@ http://tvdrs.wsrtv.com.cn:8100/channellive/mlptv.flv?zyund
 https://p8.vzan.com/slowlive/147077707554082780/live.m3u8
 
 # 少儿
+#EXTINF:-1 group-title="少儿台" tvg-name="CDTV-6" tvg-id="CDTV-6",成都少儿
+https://www.u1112293.nyat.app:49630/?6
 #EXTINF:-1 tvg-name="浙江少儿" tvg-id="浙江少儿" tvg-logo="https://livecdn.zbds.org/logo/浙江少儿.png" group-title="少儿台", 浙江少儿
 https://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
+#EXTINF:-1 group-title="少儿台" tvg-name="内蒙古少儿",内蒙古少儿
+http://play1-qk.nmtv.cn/live/1686560464515368.m3u8
+#EXTINF:-1 tvg-name="海南少儿" tvg-logo="https://gitee.com/qttv/tv/raw/master/logo/海南少儿.png" group-title="少儿台",海南少儿
+http://nn.7x9d.cn/地方台8563/海南.php?id=sepd
 #EXTINF:-1 tvg-name="喜羊羊与灰太狼" group-title="少儿台",喜羊羊与灰太狼
 http://iptv.jxpan.vip:18888/aio/huya/23865080
 #EXTINF:-1 group-title="少儿台" tvg-name="名侦探柯南",名侦探柯南
 http://iptv.jxpan.vip:18888/aio/huya/30080236
 #EXTINF:-1 tvg-name="优漫卡通" tvg-logo="https://live.fanmingming.cn/tv/优漫卡通.png" group-title="少儿台",优漫卡通
 http://t.061899.xyz/tl/dq.php?id=ymkt
-#EXTINF:-1 group-title="少儿台" tvg-name="内蒙古少儿",内蒙古少儿
-http://play1-qk.nmtv.cn/live/1686560464515368.m3u8
-#EXTINF:-1 tvg-name="海南少儿" tvg-logo="https://gitee.com/qttv/tv/raw/master/logo/海南少儿.png" group-title="少儿台",海南少儿
-http://nn.7x9d.cn/地方台8563/海南.php?id=sepd
 
 # 华东-上海
 #EXTINF:-1 tvg-id="五星体育" tvg-name="五星体育" tvg-logo="https://live.fanmingming.cn/tv/五星体育.png" group-title="华东台",五星体育

@@ -7,8 +7,6 @@ $n = [
 'cdys' =>[560,'cdtv4','CDTV4'], //CDTV-4 影视文艺频道
 'cdgg' =>[559,'cdtv5','CDTV5'], //CDTV-5 公共频道
 'cdse' =>[558,'cdtv6','CDTV6'], //CDTV-6 少儿频道
-'rcxf' =>[592,'dangjiao','dangjiao'], //蓉城先锋
-'mrgw' =>[595,'cdtv8','CDTV8'], //每日购物
 
 //strtoupper()
 ];
