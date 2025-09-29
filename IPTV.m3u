@@ -87,6 +87,10 @@ http://nn.7x9d.cn/地方台8563/海南.php?id=hnws
 http://120.76.248.139/live/bfgd/4200000108.m3u8
 
 # 西南-四川
+#EXTINF:-1 group-title="西南台" tvg-name="乐至综合" tvg-id="乐至综合",乐至综合
+http://175.155.106.72:89/live1/live1.m3u8
+#EXTINF:-1 group-title="西南台" tvg-name="安岳综合" tvg-id="安岳综合" ,安岳综合
+https://aytvpull.ayrmt.com/live/sobeystream_1728362049.m3u8
 #EXTINF:-1 group-title="西南台" tvg-name="CDTV-1" tvg-id="CDTV-1",成都新闻综合
 https://www.u1112293.nyat.app:49630/?1
 #EXTINF:-1 group-title="西南台" tvg-name="CDTV-2" tvg-id="CDTV-2",成都经济资讯
