@@ -153,6 +153,8 @@ https://file.dzxw.net/nmip-media/channellive/channel104727/playlist.m3u8
 http://livexuanhan.chinamcache.com/live/push1.m3u8
 #EXTINF:-1 group-title="西南台" tvg-name="威远综合" tvg-id="威远综合",威远综合
 https://wy-live-pull.thecover.cn/rmtlive/fmzb1710746907096.m3u8
+#EXTINF:-1 group-title="西南台" tvg-name="甘孜综合" tvg-id="甘孜综合",甘孜综合
+https://m3u8channel.ganzitv.com/nmip-media/channellive/channel1/playlist.m3u8
 
 # 西南-重庆
 #EXTINF:-1 group-title="西南台" tvg-name="璧山综合" tvg-id="璧山综合",璧山综合
@@ -382,8 +384,10 @@ https://stream.sun0769.com/dgrtv1/mp4tv1_800/index.m3u8
 https://stream.sun0769.com/dgrtv1/mp4tv2_800/index.m3u8
 
 #华南-广西
-#EXTINF:-1 group-title="华南台" tvg-name="南宁都市生活" tvg-id="南宁都市生活" tvg-logo="https://livecdn.zbds.org/logo/南宁都市生活.png", 南宁都市生活
-http://615bbf179ba53515dccad7b1da5d1ad9.livehwc3.cn/hls.nntv.cn/nnlive/WLSH_24.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=2598844eaee8a4265e706fc14b3fc11d
+#EXTINF:-1 group-title="华南台" tvg-name="南宁新闻综合" tvg-id="南宁新闻综合" tvg-logo="https://livecdn.zbds.org/logo/南宁新闻综合.png", 南宁新闻综合
+https://hls.nntv.cn/nnlive/XWZH_24.m3u8
+#EXTINF:-1 group-title="华南台" tvg-name="南宁文旅生活" tvg-id="南宁文旅生活" tvg-logo="https://livecdn.zbds.org/logo/南宁文旅生活.png", 南宁文旅生活
+https://hls.nntv.cn/nnlive/WLSH_24.m3u8
 
 # 华南-海南
 #EXTINF:-1 group-title="华南台" tvg-name="海口综合" tvg-id="海口综合",海口综合
