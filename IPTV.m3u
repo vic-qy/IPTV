@@ -161,6 +161,14 @@ https://m3u8channel.ganzitv.com/nmip-media/channellive/channel1/playlist.m3u8
 http://222.179.42.129:8181/hls1.m3u8?zzhongqd
 
 # 西南-云南
+#EXTINF:-1 group-title="西南台" tvg-name="云南都市" tvg-id="云南都市",云南都市
+https://hwapi.yntv.net/62hdvf/rjwt14.m3u8
+#EXTINF:-1 group-title="西南台" tvg-name="云南娱乐" tvg-id="云南娱乐",云南娱乐
+https://hwapi.yntv.net/62hdvf/q9vs1b.m3u8
+#EXTINF:-1 group-title="西南台" tvg-name="云南康养" tvg-id="云南康养",云南康养
+https://hwapi.yntv.net/62hdvf/227q43.m3u8
+#EXTINF:-1 group-title="西南台" tvg-name="云南影视" tvg-id="云南影视",云南影视
+https://hwapi.yntv.net/62hdvf/utrat7.m3u8
 #EXTINF:-1 group-title="西南台" tvg-name="普洱综合" tvg-id="普洱综合",普洱综合
 https://zhibo.puerw.cn/puer/c752b300-602c-4083-8c5e-f6bb97b58f2d.m3u8
 #EXTINF:-1 group-title="西南台" tvg-name="麻栗坡电视台" tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/麻栗坡电视台.png",麻栗坡电视台
