@@ -1,5 +1,5 @@
 <?php
-// 半成品
+// 安徽，半成品
 // 定义API地址
 $apiUrl = 'https://mapi.ahtv.cn/api/v1/channel.php?is_audio=0&category_id=1%2C2';
 
