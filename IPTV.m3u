@@ -87,20 +87,25 @@ http://nn.7x9d.cn/地方台8563/海南.php?id=hnws
 http://120.76.248.139/live/bfgd/4200000108.m3u8
 
 # 西南-四川
+
+#EXTINF:-1 group-title="西南台" tvg-name="资阳新闻综合" tvg-id="资阳新闻综合",资阳新闻综合
+http://livehouse.tttttttttt.top/live/zytv.php?1
+#EXTINF:-1 group-title="西南台" tvg-name="雁江频道" tvg-id="雁江频道",雁江频道
+http://livehouse.tttttttttt.top/live/zytv.php?4
 #EXTINF:-1 group-title="西南台" tvg-name="乐至综合" tvg-id="乐至综合",乐至综合
 http://175.155.106.72:89/live1/live1.m3u8
 #EXTINF:-1 group-title="西南台" tvg-name="安岳综合" tvg-id="安岳综合" ,安岳综合
 https://aytvpull.ayrmt.com/live/sobeystream_1728362049.m3u8
 #EXTINF:-1 group-title="西南台" tvg-name="CDTV-1" tvg-id="CDTV-1",成都新闻综合
-https://www.u1112293.nyat.app:49630/?1
+http://livehouse.tttttttttt.top/live/cdtv.php?1
 #EXTINF:-1 group-title="西南台" tvg-name="CDTV-2" tvg-id="CDTV-2",成都经济资讯
-https://www.u1112293.nyat.app:49630/?2
+http://livehouse.tttttttttt.top/live/cdtv.php?2
 #EXTINF:-1 group-title="西南台" tvg-name="CDTV-3" tvg-id="CDTV-3",成都都市生活
-https://www.u1112293.nyat.app:49630/?3
+http://livehouse.tttttttttt.top/live/cdtv.php?3
 #EXTINF:-1 group-title="西南台" tvg-name="CDTV-4" tvg-id="CDTV-4",成都影视文艺
-https://www.u1112293.nyat.app:49630/?4
+http://livehouse.tttttttttt.top/live/cdtv.php?4
 #EXTINF:-1 group-title="西南台" tvg-name="CDTV-5" tvg-id="CDTV-5",成都公共
-https://www.u1112293.nyat.app:49630/?5
+http://livehouse.tttttttttt.top/live/cdtv.php?5
 #EXTINF:-1 group-title="西南台" tvg-name="四川科教" tvg-id="四川科教",四川科教
 http://182.150.115.21:8030/pcgacg/pcgacg_0.m3u8
 #EXTINF:-1 group-title="西南台" tvg-name="内江综合" tvg-id="内江综合",内江综合
@@ -180,7 +185,7 @@ https://p8.vzan.com/slowlive/147077707554082780/live.m3u8
 
 # 少儿
 #EXTINF:-1 group-title="少儿台" tvg-name="CDTV-6" tvg-id="CDTV-6",成都少儿
-https://www.u1112293.nyat.app:49630/?6
+http://livehouse.tttttttttt.top/live/cdtv.php?6
 #EXTINF:-1 tvg-name="浙江少儿" tvg-id="浙江少儿" tvg-logo="https://livecdn.zbds.org/logo/浙江少儿.png" group-title="少儿台", 浙江少儿
 https://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
 #EXTINF:-1 group-title="少儿台" tvg-name="内蒙古少儿",内蒙古少儿

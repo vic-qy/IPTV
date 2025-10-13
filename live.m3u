@@ -49,6 +49,8 @@ https://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
 http://play1-qk.nmtv.cn/live/1686560464515368.m3u8
 #EXTINF:-1 group-title="少儿频道" tvg-name="海南少儿" tvg-logo="https://gitee.com/qttv/tv/raw/master/logo/海南少儿.png",海南少儿
 http://nn.7x9d.cn/地方台8563/海南.php?id=sepd
+#EXTINF:-1 group-title="少儿频道" tvg-name="CDTV-6" tvg-id="CDTV-6",成都少儿
+http://livehouse.tttttttttt.top/live/cdtv.php?6
 #EXTINF:-1 group-title="少儿频道" tvg-name="动漫秀场",动漫秀场
 https://zby.130519.xyz/PLTV/11/224/3221225764/index.m3u8
 #EXTINF:-1 group-title="少儿频道" tvg-name="金鹰卡通",金鹰卡通
@@ -56,6 +58,22 @@ https://zby.130519.xyz/PLTV/11/224/3221226094/index.m3u8
 
 #EXTINF:-1 group-title="高清频道" tvg-name="四川科教" tvg-id="四川科教",四川科教
 http://182.150.115.21:8030/pcgacg/pcgacg_0.m3u8
+#EXTINF:-1 group-title="高清频道" tvg-name="乐至综合" tvg-id="乐至综合",乐至综合
+http://175.155.106.72:89/live1/live1.m3u8
+#EXTINF:-1 group-title="高清频道" tvg-name="资阳新闻综合" tvg-id="资阳新闻综合",资阳新闻综合
+http://livehouse.tttttttttt.top/live/zytv.php?1
+#EXTINF:-1 group-title="高清频道" tvg-name="雁江频道" tvg-id="雁江频道",雁江频道
+http://livehouse.tttttttttt.top/live/zytv.php?4
+#EXTINF:-1 group-title="高清频道" tvg-name="CDTV-1" tvg-id="CDTV-1",成都新闻综合
+http://livehouse.tttttttttt.top/live/cdtv.php?1
+#EXTINF:-1 group-title="高清频道" tvg-name="CDTV-2" tvg-id="CDTV-2",成都经济资讯
+http://livehouse.tttttttttt.top/live/cdtv.php?2
+#EXTINF:-1 group-title="高清频道" tvg-name="CDTV-3" tvg-id="CDTV-3",成都都市生活
+http://livehouse.tttttttttt.top/live/cdtv.php?3
+#EXTINF:-1 group-title="高清频道" tvg-name="CDTV-4" tvg-id="CDTV-4",成都影视文艺
+http://livehouse.tttttttttt.top/live/cdtv.php?4
+#EXTINF:-1 group-title="高清频道" tvg-name="CDTV-5" tvg-id="CDTV-5",成都公共
+http://livehouse.tttttttttt.top/live/cdtv.php?5
 #EXTINF:-1 group-title="高清频道" tvg-name="重温经典",重温经典
 http://8.138.7.223/tv/cwjd.php
 #EXTINF:-1 group-title="高清频道" tvg-name="东方影视",东方影视
