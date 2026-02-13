@@ -44,7 +44,7 @@ https://english-livebkali.cgtn.com/live/doccgtn.m3u8
 #EXTINF:-1 group-title="卫视频道" tvg-name="北京卫视" tvg-id="北京卫视", 北京卫视
 https://zby.130519.xyz/PLTV/11/224/3221225724/index.m3u8
 #EXTINF:-1 group-title="卫视频道" tvg-name="东方卫视" tvg-id="东方卫视", 东方卫视
-http://113.26.202.52:1299/tsfile/live/0107_1.m3u8
+http://bp-resource-dfl.bestv.cn/148/3/video.m3u8
 #EXTINF:-1 tvg-id="浙江卫视4K" tvg-name="浙江卫视4K" group-title="卫视频道",浙江卫视4K
 http://ali-xwl.cztv.com/live/channel4k2160p.m3u8
 #EXTINF:-1 tvg-id="浙江卫视4K" tvg-name="浙江卫视4K" group-title="卫视频道",浙江卫视4K
@@ -56,7 +56,7 @@ http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/Y2RuZXhfaWQ9YWxfaGxzX2xkdnQmZT02O
 #EXTINF:-1 tvg-id="湖南卫视4K" tvg-name="湖南卫视4K" group-title="卫视频道",湖南卫视4K
 http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/dWlwPTEyNy4wLjAuMSZ1aWQ9cWluZy1jbXMmbm5fdGltZXpvbmU9OCZjZG5leF9pZD1hbF9obHNfbGR2dCZ1dWlkPTliODY4NmU5ZTM2YzYwMmMmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8
 #EXTINF:-1 group-title="卫视频道" tvg-name="江苏卫视" tvg-id="江苏卫视", 江苏卫视
-https://zby.130519.xyz/PLTV/11/224/3221225720/index.m3u8
+http://8.138.7.223/tv/jsws4k.php
 #EXTINF:-1 group-title="卫视频道" tvg-name="河南卫视" tvg-id="河南卫视", 河南卫视
 http://1.94.31.214/php/hntv.php?id=hnws
 #EXTINF:-1 group-title="卫视频道" tvg-name="天津卫视" tvg-id="天津卫视", 天津卫视
@@ -123,8 +123,8 @@ https://event.pull.hebtv.com:443/live/live101.m3u8
 http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct3
 # #EXTINF:-1 tvg-name="无线新闻台" group-title="港澳台",无线新闻台
 # http://cdn9.163189.xyz/smt1.1.php?id=inews_twn
-# #EXTINF:-1 tvg-name="明珠台" group-title="港澳台",明珠台
-# https://mytv.cdn.loc.cc/o12.php?id=mzt
+#EXTINF:-1 tvg-name="明珠台" group-title="港澳台",明珠台
+http://r.jdshipin.com/jUx8K
 #EXTINF:-1 tvg-name="viutv" group-title="港澳台",viutv
 http://php.jdshipin.com:8880/PLTV/iptv.php?id=viutv
 #EXTINF:-1 tvg-name="莲花卫视" group-title="港澳台",莲花卫视
