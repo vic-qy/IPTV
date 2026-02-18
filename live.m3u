@@ -61,14 +61,14 @@ http://8.138.7.223/tv/jsws4k.php
 http://nn.7x9d.cn/深圳最新.php?id=szws4k
 #EXTINF:-1 group-title="卫视频道" tvg-name="河南卫视" tvg-id="河南卫视", 河南卫视
 http://1.94.31.214/php/hntv.php?id=hnws
+#EXTINF:-1 group-title="卫视频道" tvg-name="海峡卫视" tvg-id="海峡卫视", 海峡卫视
+http://8.138.7.223/tv/hxws.m3u8
 #EXTINF:-1 group-title="卫视频道" tvg-name="天津卫视" tvg-id="天津卫视", 天津卫视
 http://113.26.202.52:1299/tsfile/live/0135_1.m3u8
-#EXTINF:-1 group-title="卫视频道" tvg-name="海南卫视" tvg-id="海南卫视",海南卫视
-http://nn.7x9d.cn/地方台8563/海南.php?id=hnws
-#EXTINF:-1 group-title="卫视频道" tvg-name="兵团卫视" tvg-id="兵团卫视",兵团卫视
-http://liveout.btzx.com.cn/62ds9e/yil08g.m3u8
 #EXTINF:-1 group-title="卫视频道" tvg-id="延边卫视" tvg-name="延边卫视",延边卫视
 https://srs.iyb983.cn/video/CYS/index.m3u8
+#EXTINF:-1 group-title="卫视频道" tvg-name="海南卫视" tvg-id="海南卫视",海南卫视
+http://nn.7x9d.cn/地方台8563/海南.php?id=hnws
 
 
 #EXTINF:-1 group-title="少儿频道" tvg-name="卡酷少儿",卡酷少儿
