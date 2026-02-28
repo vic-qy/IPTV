@@ -347,6 +347,10 @@ http://tvpull.dxhmt.cn:9081/tv/10422-1.m3u8#
 #EXTINF:-1 group-title="华中台" tvg-name="卫辉综合" tvg-id="卫辉综合",卫辉综合
 http://live.dxhmt.cn:9081/tv/10781-1.m3u8
 
+# 华中-湖北
+#EXTINF:-1 group-title="华中台" tvg-name="荆门新闻综合" tvg-id="荆门新闻综合",荆门新闻综合
+http://stream.jmtv.com.cn/xwzh/sd/live.m3u8
+
 # 西北-陕西
 #EXTINF:-1 group-title="西北台" tvg-name="西安新闻综合" tvg-id="西安新闻综合",西安新闻综合
 https://stream.xiancity.cn/live/1/index.m3u8
