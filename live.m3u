@@ -8,20 +8,19 @@ http://ygbh.site/php/bfgd.php?id=061
 http://ygbh.site/php/bfgd.php?id=062
 #EXTINF:-1 group-title="央视频道" tvg-name="CCTV4" tvg-id="CCTV4", CCTV-4中文国际
 http://ygbh.site/php/bfgd.php?id=063
-#EXTINF:-1 group-title="央视频道" tvg-name="CCTV5" tvg-id="CCTV5", CCTV-5体育
+#EXTINF:-1 group-title="央视频道" tvg-name="CCTV5" tvg-id="CCTV5" tvg-logo="https://raw.githubusercontent.com/samkolau/TVLOGO/main/logo/CCTV/CCTV5体育.png", CCTV-5体育
 http://113.26.202.52:1299/tsfile/live/0005_1.m3u8
-#EXTINF:-1 group-title="央视频道" tvg-name="CCTV5+" tvg-id="CCTV5+", CCTV-5+体育赛事
+#EXTINF:-1 group-title="央视频道" tvg-name="CCTV5+" tvg-id="CCTV5+" tvg-logo="https://raw.githubusercontent.com/samkolau/TVLOGO/main/logo/CCTV/CCTV5+赛事.png", CCTV-5+体育赛事
 http://ygbh.site/php/bfgd.php?id=246
 http://120.76.248.139/live/bfgd/4200000246.m3u8
 http://222.169.85.8:9901/tsfile/live/0116_1.m3u8
-#EXTINF:-1 group-title="央视频道" tvg-name="CCTV6" tvg-id="CCTV6", CCTV-6电影
+#EXTINF:-1 group-title="央视频道" tvg-name="CCTV6" tvg-id="CCTV6" tvg-logo="https://raw.githubusercontent.com/samkolau/TVLOGO/main/logo/CCTV/CCTV6电影.png", CCTV-6电影
 http://ygbh.site/php/bfgd.php?id=065
 http://120.76.248.139/live/bfgd/4200000065.m3u8
 #EXTINF:-1 group-title="央视频道" tvg-name="CCTV6" tvg-id="CCTV7", CCTV-7军事
 http://ygbh.site/php/bfgd.php?id=127
 #EXTINF:-1 group-title="央视频道" tvg-name="CCTV8" tvg-id="CCTV8", CCTV-8电视剧
 http://ygbh.site/php/bfgd.php?id=066
-
 http://ygbh.site/php/bfgd.php?id=128
 #EXTINF:-1 group-title="央视频道" tvg-name="CCTV10" tvg-id="CCTV10", CCTV-10科教
 http://113.26.202.52:1299/tsfile/live/0010_1.m3u8
@@ -35,9 +34,9 @@ http://111.227.196.164:9901/tsfile/live/0014_1.m3u8
 https://zby.130519.xyz/PLTV/11/224/3221226147/index.m3u8
 #EXTINF:-1 group-title="央视频道" tvg-name="CCTV17" tvg-id="CCTV17", CCTV-15农业农村
 http://120.76.248.139/live/bfgd/4200000204.m3u8
-#EXTINF:-1 group-title="央视频道" tvg-name="CGTN" tvg-id="CGTN", CGTN
+#EXTINF:-1 group-title="央视频道" tvg-name="CGTN" tvg-id="CGTN" tvg-logo="https://raw.githubusercontent.com/samkolau/TVLOGO/main/logo/CCTV/CGTN.png", CGTN
 https://english-livebkali.cgtn.com/live/encgtn.m3u8
-#EXTINF:-1 group-title="央视频道" tvg-name="CGTN Docmentary" tvg-id="CGTN Docmentary", CGTN纪录
+#EXTINF:-1 group-title="央视频道" tvg-name="CGTN Docmentary" tvg-id="CGTN Docmentary" tvg-logo="https://raw.githubusercontent.com/samkolau/TVLOGO/main/logo/CCTV/CGTN纪录.png", CGTN纪录
 https://english-livebkali.cgtn.com/live/doccgtn.m3u8
 
 #EXTINF:-1 group-title="卫视频道" tvg-name="东方卫视" tvg-id="东方卫视", 东方卫视
