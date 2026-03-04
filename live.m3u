@@ -1,39 +1,13 @@
 #EXTM3U
-#EXTINF:-1 group-title="央视频道" tvg-name="CCTV1" tvg-id="CCTV1", CCTV-1综合
-https://zby.130519.xyz/PLTV/11/224/3221225673/index.m3u8
-http://ygbh.site/php/bfgd.php?id=488
-#EXTINF:-1 group-title="央视频道" tvg-name="CCTV2" tvg-id="CCTV2", CCTV-2财经
-http://ygbh.site/php/bfgd.php?id=061
-#EXTINF:-1 group-title="央视频道" tvg-name="CCTV3" tvg-id="CCTV3", CCTV-3综艺
-http://ygbh.site/php/bfgd.php?id=062
-#EXTINF:-1 group-title="央视频道" tvg-name="CCTV4" tvg-id="CCTV4", CCTV-4中文国际
-http://ygbh.site/php/bfgd.php?id=063
 #EXTINF:-1 group-title="央视频道" tvg-name="CCTV5" tvg-id="CCTV5" tvg-logo="https://raw.githubusercontent.com/samkolau/TVLOGO/main/logo/CCTV/CCTV5体育.png", CCTV-5体育
 http://113.26.202.52:1299/tsfile/live/0005_1.m3u8
 #EXTINF:-1 group-title="央视频道" tvg-name="CCTV5+" tvg-id="CCTV5+" tvg-logo="https://raw.githubusercontent.com/samkolau/TVLOGO/main/logo/CCTV/CCTV5+赛事.png", CCTV-5+体育赛事
-http://ygbh.site/php/bfgd.php?id=246
 http://120.76.248.139/live/bfgd/4200000246.m3u8
 http://222.169.85.8:9901/tsfile/live/0116_1.m3u8
 #EXTINF:-1 group-title="央视频道" tvg-name="CCTV6" tvg-id="CCTV6" tvg-logo="https://raw.githubusercontent.com/samkolau/TVLOGO/main/logo/CCTV/CCTV6电影.png", CCTV-6电影
-http://ygbh.site/php/bfgd.php?id=065
 http://120.76.248.139/live/bfgd/4200000065.m3u8
-#EXTINF:-1 group-title="央视频道" tvg-name="CCTV6" tvg-id="CCTV7", CCTV-7军事
-http://ygbh.site/php/bfgd.php?id=127
-#EXTINF:-1 group-title="央视频道" tvg-name="CCTV8" tvg-id="CCTV8", CCTV-8电视剧
-http://ygbh.site/php/bfgd.php?id=066
-http://ygbh.site/php/bfgd.php?id=128
-#EXTINF:-1 group-title="央视频道" tvg-name="CCTV10" tvg-id="CCTV10", CCTV-10科教
+#EXTINF:-1 group-title="央视频道" tvg-name="CCTV10" tvg-id="CCTV10" tvg-logo="https://raw.githubusercontent.com/samkolau/TVLOGO/main/logo/CCTV/CCTV10%E7%A7%91%E6%95%99.png", CCTV-10科教
 http://113.26.202.52:1299/tsfile/live/0010_1.m3u8
-#EXTINF:-1 group-title="央视频道" tvg-name="CCTV11" tvg-id="CCTV11", CCTV-11戏曲
-http://111.227.196.164:9901/tsfile/live/0011_1.m3u8
-#EXTINF:-1 group-title="央视频道" tvg-name="CCTV12" tvg-id="CCTV12", CCTV-12社会与法
-http://120.76.248.139/live/bfgd/4200000131.m3u8
-#EXTINF:-1 group-title="央视频道" tvg-name="CCTV14" tvg-id="CCTV14", CCTV-14少儿
-http://111.227.196.164:9901/tsfile/live/0014_1.m3u8
-#EXTINF:-1 group-title="央视频道" tvg-name="CCTV15" tvg-id="CCTV15", CCTV-15音乐
-https://zby.130519.xyz/PLTV/11/224/3221226147/index.m3u8
-#EXTINF:-1 group-title="央视频道" tvg-name="CCTV17" tvg-id="CCTV17", CCTV-15农业农村
-http://120.76.248.139/live/bfgd/4200000204.m3u8
 #EXTINF:-1 group-title="央视频道" tvg-name="CGTN" tvg-id="CGTN" tvg-logo="https://raw.githubusercontent.com/samkolau/TVLOGO/main/logo/CCTV/CGTN.png", CGTN
 https://english-livebkali.cgtn.com/live/encgtn.m3u8
 #EXTINF:-1 group-title="央视频道" tvg-name="CGTN Docmentary" tvg-id="CGTN Docmentary" tvg-logo="https://raw.githubusercontent.com/samkolau/TVLOGO/main/logo/CCTV/CGTN纪录.png", CGTN纪录
@@ -68,7 +42,7 @@ https://srs.iyb983.cn/video/CYS/index.m3u8
 
 #EXTINF:-1 group-title="少儿频道" tvg-logo="https://livecdn.zbds.org/logo/浙江少儿.png" tvg-name="浙江少儿" tvg-id="浙江少儿", 浙江少儿
 http://ali-xwl.cztv.com/live/channel081080Plxw.m3u8
-#EXTINF:-1 group-title="少儿频道" tvg-name="海南少儿" tvg-logo="https://gitee.com/qttv/tv/raw/master/logo/海南少儿.png",海南少儿
+#EXTINF:-1 group-title="少儿频道" tvg-name="海南少儿" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Hainan5.png",海南少儿
 http://nn.7x9d.cn/地方台8563/海南.php?id=sepd
 
 #EXTINF:-1 group-title="高清频道" tvg-name="四川科教" tvg-id="四川科教" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/Sichuan7.png",四川科教
