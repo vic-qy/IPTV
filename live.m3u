@@ -81,5 +81,3 @@ http://r.jdshipin.com/jUx8K
 #EXTINF:-1 tvg-name="龙华电影" group-title="港澳台",龙华电影
 http://iptv.4666888.xyz/iptv2A.php?id=45
 
-#EXTINF:-1 group-title="web源" tvg-name="CCTV4" tvg-id="CCTV4",CCTV4-中文国际
-webview://https://tv.cctv.com/live/cctv4/
