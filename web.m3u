@@ -111,3 +111,13 @@ webview://https://www.yangshipin.cn/tv/home?pid=600152138
 
 #EXTINF:-1 group-title="地方-四川" tvg-name="成都新闻综合" tvg-id="成都新闻综合",成都新闻综合
 webview://https://www.cditv.cn/show/4845-563.html
+#EXTINF:-1 group-title="地方-四川" tvg-name="成都经济资讯" tvg-id="成都经济资讯",成都经济资讯
+webview://https://www.cditv.cn/show/4845-562.html
+#EXTINF:-1 group-title="地方-四川" tvg-name="成都都市生活" tvg-id="成都都市生活",成都都市生活
+webview://https://www.cditv.cn/show/4845-561.html
+#EXTINF:-1 group-title="地方-四川" tvg-name="成都影视文艺" tvg-id="成都影视文艺",成都影视文艺
+webview://https://www.cditv.cn/show/4845-560.html
+#EXTINF:-1 group-title="地方-四川" tvg-name="成都公共频道" tvg-id="成都公共频道",成都公共频道
+webview://https://www.cditv.cn/show/4845-559.html
+#EXTINF:-1 group-title="地方-四川" tvg-name="成都少儿频道" tvg-id="成都少儿频道",成都少儿频道
+webview://https://www.cditv.cn/show/4845-558.html
