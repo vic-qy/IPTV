@@ -47,8 +47,6 @@ http://nn.7x9d.cn/地方台8563/海南.php?id=sepd
 
 #EXTINF:-1 group-title="高清频道" tvg-name="四川科教" tvg-id="四川科教" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/Sichuan7.png",四川科教
 http://182.150.115.21:8030/pcgacg/pcgacg_0.m3u8
-#EXTINF:-1 group-title="高清频道" tvg-name="成都综合" tvg-id="成都综合",成都综合
-http://www.u1112293.nyat.app:49630/cdtv.php
 #EXTINF:-1 group-title="高清频道" tvg-name="乐至综合" tvg-id="乐至综合",乐至综合
 http://175.155.106.72:89/live1/live1.m3u8
 #EXTINF:-1 group-title="高清频道" tvg-name="重温经典" tvg-logo="https://raw.githubusercontent.com/samkolau/TVLOGO/main/logo/DIG/%E9%87%8D%E6%B8%A9%E7%BB%8F%E5%85%B8.png",重温经典
@@ -82,3 +80,6 @@ http://r.jdshipin.com/CkuBd
 http://r.jdshipin.com/jUx8K
 #EXTINF:-1 tvg-name="龙华电影" group-title="港澳台",龙华电影
 http://iptv.4666888.xyz/iptv2A.php?id=45
+
+#EXTINF:-1 group-title="web源" tvg-name="CCTV4" tvg-id="CCTV4",CCTV4-中文国际
+webview://https://tv.cctv.com/live/cctv4/
