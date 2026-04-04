@@ -2,7 +2,6 @@
 #EXTINF:-1 group-title="央视频道" tvg-name="CCTV5" tvg-id="CCTV5" tvg-logo="https://raw.githubusercontent.com/samkolau/TVLOGO/main/logo/CCTV/CCTV5体育.png", CCTV-5体育
 http://113.26.202.52:1299/tsfile/live/0005_1.m3u8
 #EXTINF:-1 group-title="央视频道" tvg-name="CCTV5+" tvg-id="CCTV5+" tvg-logo="https://raw.githubusercontent.com/samkolau/TVLOGO/main/logo/CCTV/CCTV5+赛事.png", CCTV-5+体育赛事
-http://120.76.248.139/live/bfgd/4200000246.m3u8
 http://222.169.85.8:9901/tsfile/live/0116_1.m3u8
 #EXTINF:-1 group-title="央视频道" tvg-name="CCTV6" tvg-id="CCTV6" tvg-logo="https://raw.githubusercontent.com/samkolau/TVLOGO/main/logo/CCTV/CCTV6电影.png", CCTV-6电影
 http://120.76.248.139/live/bfgd/4200000065.m3u8
@@ -15,8 +14,6 @@ https://english-livebkali.cgtn.com/live/encgtn.m3u8
 #EXTINF:-1 group-title="央视频道" tvg-name="CGTN Docmentary" tvg-id="CGTN Docmentary" tvg-logo="https://raw.githubusercontent.com/samkolau/TVLOGO/main/logo/CCTV/CGTN纪录.png", CGTN纪录
 https://english-livebkali.cgtn.com/live/doccgtn.m3u8
 
-#EXTINF:-1 group-title="卫视频道" tvg-name="东方卫视" tvg-id="东方卫视" tvg-logo="https://raw.githubusercontent.com/samkolau/TVLOGO/main/logo/CN4K/%E4%B8%9C%E6%96%B9%E5%8D%AB%E8%A7%864K.png"", 东方卫视
-http://bp-resource-dfl.bestv.cn/148/3/video.m3u8
 #EXTINF:-1 tvg-id="浙江卫视" tvg-name="浙江卫视" group-title="卫视频道" tvg-logo="https://raw.githubusercontent.com/samkolau/TVLOGO/main/logo/CN4K/%E6%B5%99%E6%B1%9F%E5%8D%AB%E8%A7%864K.png",浙江卫视
 http://ali-xwl.cztv.com/live/channel4k2160p.m3u8
 https://bd-xwl.cztv.com/live/channel4k2160p.m3u8
@@ -30,12 +27,14 @@ http://8.138.7.223/tv/jsws4k.php
 http://nn.7x9d.cn/深圳最新.php?id=szws4k
 #EXTINF:-1 group-title="卫视频道" tvg-name="河南卫视" tvg-id="河南卫视" tvg-logo="https://raw.githubusercontent.com/samkolau/TVLOGO/main/logo/CN/%E6%B2%B3%E5%8D%97%E5%8D%AB%E8%A7%86.png", 河南卫视
 http://1.94.31.214/php/hntv.php?id=hnws
+#EXTINF:-1 group-title="卫视频道" tvg-name="安徽卫视" tvg-id="安徽卫视",安徽卫视
+http://182.150.23.74:808/hls/25/index.m3u8
 #EXTINF:-1 group-title="卫视频道" tvg-name="河北卫视" tvg-id="河北卫视",河北卫视
 http://120.76.248.139/live/bfgd/4200000108.m3u8
+#EXTINF:-1 group-title="卫视频道" tvg-name="山西卫视" tvg-id="山西卫视",山西卫视
+http://119.39.9.8:9901/tsfile/live/0118_1.m3u8
 #EXTINF:-1 group-title="卫视频道" tvg-name="海南卫视" tvg-id="海南卫视" tvg-logo="https://raw.githubusercontent.com/samkolau/TVLOGO/main/logo/CN/%E6%B5%B7%E5%8D%97%E5%8D%AB%E8%A7%86.png",海南卫视
 http://nn.7x9d.cn/地方台8563/海南.php?id=hnws
-#EXTINF:-1 group-title="卫视频道" tvg-name="海峡卫视" tvg-id="海峡卫视" tvg-logo="https://raw.githubusercontent.com/samkolau/TVLOGO/main/logo/CN/%E6%B5%B7%E5%B3%A1%E5%8D%AB%E8%A7%86.png", 海峡卫视
-http://8.138.7.223/tv/hxws.m3u8
 #EXTINF:-1 group-title="卫视频道" tvg-name="天津卫视" tvg-id="天津卫视" tvg-logo="https://raw.githubusercontent.com/samkolau/TVLOGO/main/logo/CN/%E5%A4%A9%E6%B4%A5%E5%8D%AB%E8%A7%86.png", 天津卫视
 http://113.26.202.52:1299/tsfile/live/0135_1.m3u8
 #EXTINF:-1 group-title="卫视频道" tvg-id="延边卫视" tvg-name="延边卫视" tvg-logo="https://raw.githubusercontent.com/samkolau/TVLOGO/main/logo/CN/%E5%BB%B6%E8%BE%B9%E5%8D%AB%E8%A7%86.png",延边卫视
@@ -57,6 +56,8 @@ https://njzb.scnj.tv/hls_njtv_direct/9.m3u8
 
 #EXTINF:-1 group-title="高清频道" tvg-name="重温经典" tvg-logo="https://raw.githubusercontent.com/samkolau/TVLOGO/main/logo/DIG/%E9%87%8D%E6%B8%A9%E7%BB%8F%E5%85%B8.png",重温经典
 http://8.138.7.223/tv/cwjd.php
+#EXTINF:-1 tvg-name="CHC家庭影院" group-title="高清频道",CHC家庭影院
+http://61.162.52.6:8088/newlive/live/hls/60/live.m3u8
 #EXTINF:-1 group-title="高清频道" tvg-name="浙江钱江" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Zhejiang1.png",浙江钱江
 http://ali-xwl.cztv.com/live/channel021080Plxw.m3u8
 #EXTINF:-1 group-title="高清频道" tvg-name="浙江国际" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Zhejiang7.png",浙江国际
