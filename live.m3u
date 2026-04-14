@@ -14,6 +14,8 @@ https://english-livebkali.cgtn.com/live/encgtn.m3u8
 #EXTINF:-1 group-title="央视频道" tvg-name="CGTN Docmentary" tvg-id="CGTN Docmentary" tvg-logo="https://raw.githubusercontent.com/samkolau/TVLOGO/main/logo/CCTV/CGTN纪录.png", CGTN纪录
 https://english-livebkali.cgtn.com/live/doccgtn.m3u8
 
+#EXTINF:-1 group-title="卫视频道" tvg-name="北京卫视" tvg-id="北京卫视",北京卫视
+http://8.138.7.223/tv/btime.php?id=bjws4k
 #EXTINF:-1 tvg-id="浙江卫视" tvg-name="浙江卫视" group-title="卫视频道" tvg-logo="https://raw.githubusercontent.com/samkolau/TVLOGO/main/logo/CN4K/%E6%B5%99%E6%B1%9F%E5%8D%AB%E8%A7%864K.png",浙江卫视
 http://ali-xwl.cztv.com/live/channel4k2160p.m3u8
 https://bd-xwl.cztv.com/live/channel4k2160p.m3u8
@@ -66,6 +68,16 @@ http://ali-xwl.cztv.com/live/channel101080Plxw.m3u8
 http://ali-xwl.cztv.com/live/channel041080Plxw.m3u8
 #EXTINF:-1 group-title="高清频道" tvg-name="河南都市" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Henan1.png",河南都市
 http://1.94.31.214/php/hntv.php?id=hnds
+#EXTINF:-1 tvg-name="湖南都市" group-title="高清频道",湖南都市
+http://113.241.133.180:85/tsfile/live/1002_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="湖南电影" group-title="高清频道",湖南电影
+http://113.241.133.180:85/tsfile/live/1004_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="湖南娱乐" group-title="高清频道",湖南娱乐
+http://113.241.133.180:85/tsfile/live/1003_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="湖南国际" group-title="高清频道",湖南国际
+http://113.241.133.180:85/tsfile/live/1000_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="湖南爱晚" group-title="高清频道",湖南爱晚
+http://113.241.133.180:85/tsfile/live/1006_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="高清频道" tvg-logo="https://livecdn.zbds.org/logo/浙江少儿.png" tvg-name="浙江少儿" tvg-id="浙江少儿", 浙江少儿
 http://ali-xwl.cztv.com/live/channel081080Plxw.m3u8
 #EXTINF:-1 group-title="高清频道" tvg-name="海南少儿" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Hainan5.png",海南少儿
