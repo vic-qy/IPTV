@@ -93,13 +93,13 @@ https://tylive.kan0512.com/norecord/csztv4k_4k.m3u8
 #EXTINF:-1 group-title="高清频道" tvg-name="河北4K" tvg-id="河北4K" tvg-logo="https://livecdn.zbds.org/logo/河北4K.png", 河北4K
 https://event.pull.hebtv.com:443/live/live101.m3u8
 
-#EXTINF:-1 tvg-name="神探狄仁杰" group-title="轮播台",神探狄仁杰
+#EXTINF:-1 tvg-name="神探狄仁杰" group-title="轮播台" tvg-logo="https://v6.gh-proxy.org/raw.githubusercontent.com/vic-qy/IPTV/main/logo/神探狄仁杰.png",神探狄仁杰
 https://live.ottiptv.cc/yy/1382851575
-#EXTINF:-1 tvg-name="神探狄仁杰2" group-title="轮播台",神探狄仁杰2
+#EXTINF:-1 tvg-name="神探狄仁杰2" group-title="轮播台" tvg-logo="https://v6.gh-proxy.org/raw.githubusercontent.com/vic-qy/IPTV/main/logo/神探狄仁杰2.png",神探狄仁杰2
 https://live.ottiptv.cc/yy/1382828767
-#EXTINF:-1 tvg-name="亮剑" group-title="轮播台",亮剑
+#EXTINF:-1 tvg-name="亮剑" group-title="轮播台" tvg-logo="https://v6.gh-proxy.org/raw.githubusercontent.com/vic-qy/IPTV/main/logo/亮剑.png",亮剑
 https://live.ottiptv.cc/yy/1356043643
-#EXTINF:-1 tvg-name="火蓝刀锋" group-title="轮播台",火蓝刀锋
+#EXTINF:-1 tvg-name="火蓝刀锋" group-title="轮播台" tvg-logo="https://v6.gh-proxy.org/raw.githubusercontent.com/vic-qy/IPTV/main/logo/火蓝刀锋.png",火蓝刀锋
 https://live.ottiptv.cc/yy/1382737892
 
 
