@@ -97,10 +97,16 @@ https://event.pull.hebtv.com:443/live/live101.m3u8
 https://live.ottiptv.cc/yy/1382851575
 #EXTINF:-1 tvg-name="神探狄仁杰2" group-title="轮播台" tvg-logo="https://v6.gh-proxy.org/raw.githubusercontent.com/vic-qy/IPTV/main/logo/神探狄仁杰2.png",神探狄仁杰2
 https://live.ottiptv.cc/yy/1382828767
+#EXTINF:-1 tvg-logo="https://mobilelivephoto.bs2dl.yy.com/group16/M00/f444be7f5d1d43d399588a9cf4c27aa5.jpg?imageview/4/0/w/400/h/500/q/80" group-title="轮播台", 武林外传
+https://live.ottiptv.cc/yy/1355652820
 #EXTINF:-1 tvg-name="亮剑" group-title="轮播台" tvg-logo="https://v6.gh-proxy.org/raw.githubusercontent.com/vic-qy/IPTV/main/logo/亮剑.png",亮剑
 https://live.ottiptv.cc/yy/1356043643
 #EXTINF:-1 tvg-name="火蓝刀锋" group-title="轮播台" tvg-logo="https://v6.gh-proxy.org/raw.githubusercontent.com/vic-qy/IPTV/main/logo/火蓝刀锋.png",火蓝刀锋
 https://live.ottiptv.cc/yy/1382737892
+#EXTINF:-1 tvg-name="我是特种兵" group-title="轮播台",我是特种兵
+https://live.ottiptv.cc/yy/37999586
+#EXTINF:-1 tvg-logo="https://mobilelivephoto.bs2dl.yy.com/group16/M00/b408d9ca92934a25bd0783e91e4dffb8.jpg?imageview/4/0/w/400/h/500/q/80" group-title="轮播台", 士兵突击
+https://live.ottiptv.cc/yy/1382768483
 #EXTINF:-1 tvg-name="狂飙" group-title="轮播台" tvg-logo="https://v6.gh-proxy.org/raw.githubusercontent.com/vic-qy/IPTV/main/logo/狂飙.png",狂飙
 https://live.ottiptv.cc/yy/1354936131
 #EXTINF:-1 tvg-logo="http://emyfs.bs2cdn.yy.com/offlineIndividuationCover/6VvUSoWLv3lXA0vdE0aTSD.jpg?imageview/4/0/w/400/h/500/q/80" group-title="轮播台", 舌尖上的中国第一季
@@ -109,8 +115,6 @@ https://live.ottiptv.cc/yy/1354930952
 https://live.ottiptv.cc/yy/1354930943
 #EXTINF:-1 tvg-name="读心神探" group-title="轮播台",读心神探
 https://live.ottiptv.cc/yy/1382851589
-#EXTINF:-1 tvg-name="济公" group-title="轮播台",济公
-https://live.ottiptv.cc/yy/1355265814 济公
 
 
 
