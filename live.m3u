@@ -60,8 +60,6 @@ https://njzb.scnj.tv/hls_njtv_direct/9.m3u8
 https://www.u1112293.nyat.app:49630/yibin.php?channel=news
 #EXTINF:-1 group-title="四川频道" tvg-name="宜宾公共频道" tvg-id="宜宾公共频道",宜宾公共频道
 https://www.u1112293.nyat.app:49630/yibin.php?channel=public
-#EXTINF:-1 group-title="四川频道" tvg-name="泸县综合" tvg-id="泸县综合",泸县综合
-http://lxfile.lxxcb.cn/nmip-media/channellive/channel103799/playlist.m3u8
 #EXTINF:-1 group-title="四川频道" tvg-name="夹江新闻综合" tvg-id="夹江新闻综合",夹江新闻综合
 https://tvfile.jjrm.org.cn/nmip-media/channellive/channel106282/playlist.m3u8
 
