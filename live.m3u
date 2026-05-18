@@ -46,6 +46,10 @@ https://srs.iyb983.cn/video/CYS/index.m3u8
 http://182.150.115.21:8030/pcgacg/pcgacg_0.m3u8
 #EXTINF:-1 group-title="四川频道" tvg-name="成都新闻综合" tvg-id="成都新闻综合",成都新闻综合
 https://www.u1112293.nyat.app:49630/cdtv.php?1
+#EXTINF:-1 group-title="四川频道" tvg-name="资阳综合" tvg-id="资阳综合",资阳综合
+https://www.u1112293.nyat.app:49630/zytv.php?id=1
+#EXTINF:-1 group-title="四川频道" tvg-name="雁江" tvg-id="雁江",雁江
+https://www.u1112293.nyat.app:49630/zytv.php?id=4
 #EXTINF:-1 group-title="四川频道" tvg-name="乐至综合" tvg-id="乐至综合",乐至综合
 http://175.155.106.72:89/live1/live1.m3u8
 #EXTINF:-1 group-title="四川频道" tvg-name="绵阳综合" tvg-id="绵阳综合" ,绵阳综合
@@ -60,6 +64,10 @@ https://njzb.scnj.tv/hls_njtv_direct/9.m3u8
 https://www.u1112293.nyat.app:49630/yibin.php?channel=news
 #EXTINF:-1 group-title="四川频道" tvg-name="宜宾公共频道" tvg-id="宜宾公共频道",宜宾公共频道
 https://www.u1112293.nyat.app:49630/yibin.php?channel=public
+#EXTINF:-1 group-title="四川频道" tvg-name="广安新闻综合" tvg-id="广安新闻综合",广安新闻综合
+https://www.u1112293.nyat.app:49630/guangan.php?id=1
+#EXTINF:-1 group-title="四川频道" tvg-name="广安文旅乡村" tvg-id="广安文旅乡村",广安文旅乡村
+https://www.u1112293.nyat.app:49630/guangan.php?id=2
 #EXTINF:-1 group-title="四川频道" tvg-name="夹江新闻综合" tvg-id="夹江新闻综合",夹江新闻综合
 https://tvfile.jjrm.org.cn/nmip-media/channellive/channel106282/playlist.m3u8
 
