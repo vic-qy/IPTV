@@ -53,9 +53,9 @@ https://www.u1112293.nyat.app:49630/zytv.php?id=4
 #EXTINF:-1 group-title="四川频道" tvg-name="乐至综合" tvg-id="乐至综合",乐至综合
 http://175.155.106.72:89/live1/live1.m3u8
 #EXTINF:-1 group-title="四川频道" tvg-id="遂宁综合",遂宁综合
-https://www.u1112293.nyat.app:49630/suining.php?type=xwzh
+https://www.u1112293.nyat.app:49630/suining.php?id=1
 #EXTINF:-1 group-title="四川频道" tvg-id="遂宁文化生活",遂宁文化生活
-https://www.u1112293.nyat.app:49630/suining.php?type=gggy
+https://www.u1112293.nyat.app:49630/suining.php?id=2
 # #EXTINF:-1 group-title="四川频道" tvg-name="绵阳综合" tvg-id="绵阳综合" ,绵阳综合
 # http://tvpull.myntv.cn/rtmp/myzh.flv
 # #EXTINF:-1 group-title="四川频道" tvg-name="绵阳科教" tvg-id="绵阳科教" ,绵阳科教
