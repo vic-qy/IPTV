@@ -88,20 +88,20 @@ http://ali-xwl.cztv.com/live/channel101080Plxw.m3u8
 http://ali-xwl.cztv.com/live/channel041080Plxw.m3u8
 #EXTINF:-1 group-title="高清频道" tvg-name="河南都市" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Henan1.png",河南都市
 http://1.94.31.214/php/hntv.php?id=hnds
-#EXTINF:-1 tvg-name="湖南都市" group-title="高清频道",湖南都市
-http://113.241.133.180:85/tsfile/live/1002_1.m3u8?key=txiptv&playlive=1&authid=0
+# #EXTINF:-1 tvg-name="湖南都市" group-title="高清频道",湖南都市
+# http://113.241.133.180:85/tsfile/live/1002_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="湖南电影" group-title="高清频道",湖南电影
-http://113.241.133.180:85/tsfile/live/1004_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-name="湖南娱乐" group-title="高清频道",湖南娱乐
-http://113.241.133.180:85/tsfile/live/1003_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-name="湖南国际" group-title="高清频道",湖南国际
-http://113.241.133.180:85/tsfile/live/1000_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-name="湖南爱晚" group-title="高清频道",湖南爱晚
-http://113.241.133.180:85/tsfile/live/1006_1.m3u8?key=txiptv&playlive=1&authid=0
+http://218.77.84.102:85/tsfile/live/149/2005_1.m3u8?key=txiptv
+# #EXTINF:-1 tvg-name="湖南娱乐" group-title="高清频道",湖南娱乐
+# http://113.241.133.180:85/tsfile/live/1003_1.m3u8?key=txiptv&playlive=1&authid=0
+# #EXTINF:-1 tvg-name="湖南国际" group-title="高清频道",湖南国际
+# http://113.241.133.180:85/tsfile/live/1000_1.m3u8?key=txiptv&playlive=1&authid=0
+# #EXTINF:-1 tvg-name="湖南爱晚" group-title="高清频道",湖南爱晚
+# http://113.241.133.180:85/tsfile/live/1006_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="高清频道" tvg-logo="https://livecdn.zbds.org/logo/浙江少儿.png" tvg-name="浙江少儿" tvg-id="浙江少儿", 浙江少儿
 http://ali-xwl.cztv.com/live/channel081080Plxw.m3u8
-#EXTINF:-1 group-title="高清频道" tvg-name="海南少儿" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Hainan5.png",海南少儿
-http://nn.7x9d.cn/地方台8563/海南.php?id=sepd
+# #EXTINF:-1 group-title="高清频道" tvg-name="海南少儿" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Hainan5.png",海南少儿
+# http://nn.7x9d.cn/地方台8563/海南.php?id=sepd
 #EXTINF:-1 group-title="高清频道" tvg-name="纪实科教" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Beijing5.png",纪实科教
 http://120.76.248.139/live/bfgd/4200000113.m3u8
 #EXTINF:-1 group-title="高清频道" tvg-name="新视觉" tvg-logo="https://raw.githubusercontent.com/samkolau/TVLOGO/main/logo/DIG/%E6%96%B0%E8%A7%86%E8%A7%89.png",新视觉
@@ -127,8 +127,6 @@ https://live.ottiptv.cc/yy/1356043643
 https://live.ottiptv.cc/yy/1354936244
 #EXTINF:-1 tvg-name="火蓝刀锋" group-title="轮播频道" tvg-logo="https://v6.gh-proxy.org/raw.githubusercontent.com/vic-qy/IPTV/main/logo/火蓝刀锋.png",火蓝刀锋
 https://live.ottiptv.cc/yy/1382737892
-#EXTINF:-1 tvg-name="我是特种兵" group-title="轮播频道",我是特种兵
-https://live.ottiptv.cc/yy/37999586
 #EXTINF:-1 tvg-logo="https://mobilelivephoto.bs2dl.yy.com/group16/M00/b408d9ca92934a25bd0783e91e4dffb8.jpg?imageview/4/0/w/400/h/500/q/80" group-title="轮播频道", 士兵突击
 https://live.ottiptv.cc/yy/1382768483
 #EXTINF:-1 tvg-name="狂飙" group-title="轮播频道" tvg-logo="https://v6.gh-proxy.org/raw.githubusercontent.com/vic-qy/IPTV/main/logo/狂飙.png",狂飙
