@@ -94,3 +94,5 @@ https://event.pull.hebtv.com:443/live/live101.m3u8
 http://r.jdshipin.com/CkuBd
 #EXTINF:-1 tvg-name="8TV" tvg-id="8TV" tvg-logo="https://raw.githubusercontent.com/primercs/tv-logo-tv-logo/main/countries/malaysia/8tv-my.png" group-title="海外频道",8TV(马来西亚)
 http://cdn6.163189.xyz/163189/8tv
+#EXTINF:-1 tvg-name="bein sports USA" tvg-id="bein sports USA" tvg-logo="https://raw.githubusercontent.com/primercs/tv-logo-tv-logo/main/countries/united-states/bein-sports-us.png" group-title="海外频道",bein sports USA
+http://23.237.104.106:8080/USA_BEIN/index.m3u8
