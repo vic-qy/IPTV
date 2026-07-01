@@ -78,6 +78,14 @@ http://ali-xwl.cztv.com/live/channel081080Plxw.m3u8
 http://1.94.31.214/php/hntv.php?id=hnds
 #EXTINF:-1 tvg-name="湖南电影" tvg-id="湖南电影" tvg-logo="https://livecdn.zbds.org/logo/%E6%B9%96%E5%8D%97%E7%94%B5%E5%BD%B1.png" group-title="高清频道",湖南电影
 http://218.77.84.102:85/tsfile/live/149/2005_1.m3u8?key=txiptv
+#EXTINF:-1 tvg-name="吉林影视" tvg-id="吉林影视" group-title="高清频道",吉林影视
+https://lsfb.avap.jilintv.cn/zqvk7vpj/channel/906341e6f19b4c4bacdc89941eb85d12/index.m3u8
+#EXTINF:-1 tvg-name="吉林生活" tvg-id="吉林生活" group-title="高清频道",吉林生活
+https://lsfb.avap.jilintv.cn/zqvk7vpj/channel/0a76740c72b74fabae611845aa21e06a/index.m3u8
+#EXTINF:-1 tvg-name="吉林都市" tvg-id="吉林都市" group-title="高清频道",吉林都市
+https://lsfb.avap.jilintv.cn/zqvk7vpj/channel/7e8474e6daea44ccaa5aa2300191439e/index.m3u8
+#EXTINF:-1 tvg-name="吉林乡村" tvg-id="吉林乡村" group-title="高清频道",吉林乡村
+https://lsfb.avap.jilintv.cn/zqvk7vpj/channel/3ffc4824dce54b92be185555923ce382/index.m3u8
 #EXTINF:-1 group-title="高清频道",喜剧影院
 http://74.91.26.218:82/live/vlxjyy.m3u8
 #EXTINF:-1 tvg-name="纪实科教" tvg-id="纪实科教" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Beijing5.png" group-title="高清频道",纪实科教
