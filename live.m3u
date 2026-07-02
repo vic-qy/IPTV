@@ -13,10 +13,6 @@ http://82.156.243.185:36888/av3a/cctv16n.m3u8
 http://82.156.243.185:36888/av3a/cctv4kn.m3u8
 #EXTINF:-1 tvg-name="CCTV8K" tvg-id="CCTV8K" tvg-logo="https://raw.githubusercontent.com/x1ao4/tv-logos/main/tv-logos/CCTV%20%E9%80%8F%E6%98%8E%E7%99%BD%E5%BA%95/CCTV-8K.png" group-title="央视频道",CCTV-8K超高清
 http://82.156.243.185:36888/av3a/cctv8kn.m3u8
-#EXTINF:-1 tvg-name="CGTN" tvg-id="CGTN" tvg-logo="https://raw.githubusercontent.com/samkolau/TVLOGO/main/logo/CCTV/CGTN.png" group-title="外语频道", CGTN
-https://english-livebkali.cgtn.com/live/encgtn.m3u8
-#EXTINF:-1 tvg-name="CGTN Docmentary" tvg-id="CGTN Docmentary" tvg-logo="https://raw.githubusercontent.com/samkolau/TVLOGO/main/logo/CCTV/CGTN纪录.png" group-title="外语频道", CGTN纪录
-https://english-livebkali.cgtn.com/live/doccgtn.m3u8
 #EXTINF:-1 tvg-name="浙江卫视" tvg-id="浙江卫视" tvg-logo="https://raw.githubusercontent.com/samkolau/TVLOGO/main/logo/CN4K/%E6%B5%99%E6%B1%9F%E5%8D%AB%E8%A7%864K.png" group-title="卫视频道",浙江卫视4K
 http://ali-xwl.cztv.com/live/channel4k2160p.m3u8
 https://bd-xwl.cztv.com/live/channel4k2160p.m3u8
@@ -28,7 +24,7 @@ http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/dWlwPTEyNy4wLjAuMSZ1aWQ9cWluZy1jb
 http://8.138.7.223/tv/jsws4k.php
 #EXTINF:-1 tvg-name="深圳卫视" tvg-id="深圳卫视" tvg-logo="https://raw.githubusercontent.com/samkolau/TVLOGO/main/logo/CN4K/%E6%B7%B1%E5%9C%B3%E5%8D%AB%E8%A7%864K.png" group-title="卫视频道", 深圳卫视4K
 http://nn.7x9d.cn/深圳最新.php?id=szws4k
-#EXTINF:-1 tvg-name="东方卫视" tvg-id="东方卫视" tvg-logo="https://github.com/samkolau/TVLOGO/blob/main/logo/CN/%E4%B8%9C%E6%96%B9%E5%8D%AB%E8%A7%86.png" group-title="卫视频道",东方卫视
+#EXTINF:-1 tvg-name="东方卫视" tvg-id="东方卫视" tvg-logo="https://raw.githubusercontent.com/samkolau/TVLOGO/main/logo/CN/%E4%B8%9C%E6%96%B9%E5%8D%AB%E8%A7%86.png" group-title="卫视频道",东方卫视
 http://38.75.136.137:98/gslb/dsdqbv/dfwshd.m3u8?auth=test20251009
 #EXTINF:-1 tvg-name="河南卫视" tvg-id="河南卫视" tvg-logo="https://raw.githubusercontent.com/samkolau/TVLOGO/main/logo/CN/%E6%B2%B3%E5%8D%97%E5%8D%AB%E8%A7%86.png" group-title="卫视频道", 河南卫视
 http://1.94.31.214/php/hntv.php?id=hnws
@@ -74,7 +70,7 @@ http://38.75.136.137:98/gslb/dsdqpub/dyjc.m3u8?auth=testpub
 http://38.75.136.137:98/gslb/dsdqpub/fyjc.m3u8?auth=testpub
 #EXTINF:-1 tvg-name="CCTV-怀旧剧场" tvg-id="CCTV-怀旧剧场" tvg-logo="https://raw.githubusercontent.com/x1ao4/tv-logos/main/tv-logos/CCTV%20%E9%A3%8E%E4%BA%91%E9%A2%91%E9%81%93%20%E7%81%B0%E7%99%BD%E6%B8%90%E5%8F%98/CCTV-%E6%80%80%E6%97%A7%E5%89%A7%E5%9C%BA.png" group-title="付费频道",CCTV-怀旧剧场
 http://38.75.136.137:98/gslb/dsdqpub/hjjc.m3u8?auth=testpub
-#EXTINF:-1 tvg-name="CCTV-世界地理" tvg-id="CCTV-世界地理" tvg-logo="https://github.com/x1ao4/tv-logos/blob/main/tv-logos/CCTV%20%E9%A3%8E%E4%BA%91%E9%A2%91%E9%81%93%20%E7%81%B0%E7%99%BD%E6%B8%90%E5%8F%98/CCTV-%E4%B8%96%E7%95%8C%E5%9C%B0%E7%90%86.png" group-title="付费频道",CCTV-世界地理
+#EXTINF:-1 tvg-name="CCTV-世界地理" tvg-id="CCTV-世界地理" tvg-logo="https://raw.githubusercontent.com/x1ao4/tv-logos/main/tv-logos/CCTV%20%E9%A3%8E%E4%BA%91%E9%A2%91%E9%81%93%20%E7%81%B0%E7%99%BD%E6%B8%90%E5%8F%98/CCTV-%E4%B8%96%E7%95%8C%E5%9C%B0%E7%90%86.png" group-title="付费频道",CCTV-世界地理
 http://38.75.136.137:98/gslb/dsdqpub/sjdl.m3u8?auth=testpub
 #EXTINF:-1 tvg-name="重温经典" tvg-id="重温经典" tvg-logo="https://raw.githubusercontent.com/samkolau/TVLOGO/main/logo/DIG/%E9%87%8D%E6%B8%A9%E7%BB%8F%E5%85%B8.png" group-title="高清频道",重温经典
 http://8.138.7.223/tv/cwjd.php
@@ -114,3 +110,7 @@ https://tylive.kan0512.com/norecord/csztv4k_4k.m3u8
 https://event.pull.hebtv.com:443/live/live101.m3u8
 #EXTINF:-1 tvg-name="无线新闻台" tvg-id="无限新闻台" tvg-logo="https://raw.githubusercontent.com/x1ao4/tv-logos/main/tv-logos/%E7%84%A1%E7%B6%AB%E6%96%B0%E8%81%9E%E5%8F%B0.png" group-title="港澳台",无线新闻台
 http://r.jdshipin.com/CkuBd
+#EXTINF:-1 tvg-name="CGTN" tvg-id="CGTN" tvg-logo="https://raw.githubusercontent.com/samkolau/TVLOGO/main/logo/CCTV/CGTN.png" group-title="外语频道", CGTN
+https://english-livebkali.cgtn.com/live/encgtn.m3u8
+#EXTINF:-1 tvg-name="CGTN Docmentary" tvg-id="CGTN Docmentary" tvg-logo="https://raw.githubusercontent.com/samkolau/TVLOGO/main/logo/CCTV/CGTN纪录.png" group-title="外语频道", CGTN纪录
+https://english-livebkali.cgtn.com/live/doccgtn.m3u8
