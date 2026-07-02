@@ -46,15 +46,15 @@ https://www.u1112293.nyat.app:49630/cdtv.php?1
 https://www.u1112293.nyat.app:49630/zytv.php?id=1
 #EXTINF:-1 tvg-name="雁江" tvg-id="雁江" group-title="四川频道",雁江
 https://www.u1112293.nyat.app:49630/zytv.php?id=4
-#EXTINF:-1 tvg-name="乐至综合" tvg-id="乐至综合" group-title="四川频道",乐至综合
+#EXTINF:-1 tvg-name="乐至综合" tvg-id="乐至综合" tvg-logo="https://livecdn.zbds.org/logo/%E4%B9%90%E8%87%B3%E7%BB%BC%E5%90%88.png" group-title="四川频道",乐至综合
 http://175.155.106.72:89/live1/live1.m3u8
-#EXTINF:-1 tvg-name="内江综合" tvg-id="内江综合" group-title="四川频道",内江综合
+#EXTINF:-1 tvg-name="内江综合" tvg-id="内江综合" tvg-logo="https://livecdn.zbds.org/logo/%E5%86%85%E6%B1%9F%E7%BB%BC%E5%90%88.png" group-title="四川频道",内江综合
 https://njzb.scnj.tv/hls_njtv_direct/1.m3u8
-#EXTINF:-1 tvg-name="内江科教生活" tvg-id="内江科教生活" group-title="四川频道",内江科教生活
+#EXTINF:-1 tvg-name="内江科教生活" tvg-id="内江科教生活" tvg-logo="https://livecdn.zbds.org/logo/%E5%86%85%E6%B1%9F%E7%A7%91%E6%95%99%E7%94%9F%E6%B4%BB.png" group-title="四川频道",内江科教生活
 https://njzb.scnj.tv/hls_njtv_direct/9.m3u8
-#EXTINF:-1 tvg-name="宜宾新闻综合" tvg-id="宜宾新闻综合" group-title="四川频道",宜宾新闻综合
+#EXTINF:-1 tvg-name="宜宾新闻综合" tvg-id="宜宾新闻综合" tvg-logo="https://livecdn.zbds.org/logo/%E5%AE%9C%E5%AE%BE%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88.png" group-title="四川频道",宜宾新闻综合
 https://www.u1112293.nyat.app:49630/yibin.php?channel=news
-#EXTINF:-1 tvg-name="宜宾公共频道" tvg-id="宜宾公共频道" group-title="四川频道",宜宾公共频道
+#EXTINF:-1 tvg-name="宜宾公共频道" tvg-id="宜宾公共频道" tvg-logo="https://livecdn.zbds.org/logo/%E5%AE%9C%E5%AE%BE%E5%85%AC%E5%85%B1%E9%A2%91%E9%81%93.png" group-title="四川频道",宜宾公共频道
 https://www.u1112293.nyat.app:49630/yibin.php?channel=public
 #EXTINF:-1 tvg-name="广安新闻综合" tvg-id="广安新闻综合" group-title="四川频道",广安新闻综合
 https://www.u1112293.nyat.app:49630/guangan.php?id=1
@@ -78,15 +78,15 @@ http://ali-xwl.cztv.com/live/channel081080Plxw.m3u8
 http://1.94.31.214/php/hntv.php?id=hnds
 #EXTINF:-1 tvg-name="湖南电影" tvg-id="湖南电影" tvg-logo="https://livecdn.zbds.org/logo/%E6%B9%96%E5%8D%97%E7%94%B5%E5%BD%B1.png" group-title="高清频道",湖南电影
 http://218.77.84.102:85/tsfile/live/149/2005_1.m3u8?key=txiptv
-#EXTINF:-1 tvg-name="吉林影视" tvg-id="吉林影视" group-title="高清频道",吉林影视
+#EXTINF:-1 tvg-name="吉林影视" tvg-id="吉林影视" tvg-logo="https://livecdn.zbds.org/logo/%E5%90%89%E6%9E%97%E5%BD%B1%E8%A7%86.png" group-title="高清频道",吉林影视
 https://lsfb.avap.jilintv.cn/zqvk7vpj/channel/906341e6f19b4c4bacdc89941eb85d12/index.m3u8
-#EXTINF:-1 tvg-name="吉林生活" tvg-id="吉林生活" group-title="高清频道",吉林生活
+#EXTINF:-1 tvg-name="吉林生活" tvg-id="吉林生活" tvg-logo="https://livecdn.zbds.org/logo/%E5%90%89%E6%9E%97%E7%94%9F%E6%B4%BB.png" group-title="高清频道",吉林生活
 https://lsfb.avap.jilintv.cn/zqvk7vpj/channel/0a76740c72b74fabae611845aa21e06a/index.m3u8
-#EXTINF:-1 tvg-name="吉林都市" tvg-id="吉林都市" group-title="高清频道",吉林都市
+#EXTINF:-1 tvg-name="吉林都市" tvg-id="吉林都市" tvg-logo="https://livecdn.zbds.org/logo/%E5%90%89%E6%9E%97%E9%83%BD%E5%B8%82.png" group-title="高清频道",吉林都市
 https://lsfb.avap.jilintv.cn/zqvk7vpj/channel/7e8474e6daea44ccaa5aa2300191439e/index.m3u8
-#EXTINF:-1 tvg-name="吉林乡村" tvg-id="吉林乡村" group-title="高清频道",吉林乡村
+#EXTINF:-1 tvg-name="吉林乡村" tvg-id="吉林乡村" tvg-logo="https://livecdn.zbds.org/logo/%E5%90%89%E6%9E%97%E4%B9%A1%E6%9D%91.png" group-title="高清频道",吉林乡村
 https://lsfb.avap.jilintv.cn/zqvk7vpj/channel/3ffc4824dce54b92be185555923ce382/index.m3u8
-#EXTINF:-1 group-title="高清频道",喜剧影院
+#EXTINF:-1 tvg-logo="https://livecdn.zbds.org/logo/%E5%96%9C%E5%89%A7%E5%BD%B1%E9%99%A2.png" group-title="高清频道",喜剧影院
 http://74.91.26.218:82/live/vlxjyy.m3u8
 #EXTINF:-1 tvg-name="纪实科教" tvg-id="纪实科教" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Beijing5.png" group-title="高清频道",纪实科教
 http://120.76.248.139/live/bfgd/4200000113.m3u8
