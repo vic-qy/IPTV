@@ -64,13 +64,13 @@ https://tvfile.jjrm.org.cn/nmip-media/channellive/channel106282/playlist.m3u8
 http://38.75.136.137:98/gslb/dsdqpub/fyzq.m3u8?auth=testpub
 #EXTINF:-1 tvg-name="风云音乐" tvg-id="风云音乐" tvg-logo="https://raw.githubusercontent.com/x1ao4/tv-logos/main/tv-logos/CCTV%20%E9%A3%8E%E4%BA%91%E9%A2%91%E9%81%93%20%E7%81%B0%E7%99%BD%E6%B8%90%E5%8F%98/CCTV-%E9%A3%8E%E4%BA%91%E9%9F%B3%E4%B9%90.png" group-title="付费频道",风云音乐
 http://38.75.136.137:98/gslb/dsdqpub/fyyy.m3u8?auth=testpub
-#EXTINF:-1 tvg-name="CCTV-第一剧场" tvg-id="CCTV-第一剧场" tvg-logo="https://raw.githubusercontent.com/x1ao4/tv-logos/main/tv-logos/CCTV%20%E9%A3%8E%E4%BA%91%E9%A2%91%E9%81%93%20%E7%81%B0%E7%99%BD%E6%B8%90%E5%8F%98/CCTV-%E7%AC%AC%E4%B8%80%E5%89%A7%E5%9C%BA.png" group-title="付费频道",CCTV-第一剧场
+#EXTINF:-1 tvg-name="第一剧场" tvg-id="第一剧场" tvg-logo="https://raw.githubusercontent.com/x1ao4/tv-logos/main/tv-logos/CCTV%20%E9%A3%8E%E4%BA%91%E9%A2%91%E9%81%93%20%E7%81%B0%E7%99%BD%E6%B8%90%E5%8F%98/CCTV-%E7%AC%AC%E4%B8%80%E5%89%A7%E5%9C%BA.png" group-title="付费频道",第一剧场
 http://38.75.136.137:98/gslb/dsdqpub/dyjc.m3u8?auth=testpub
-#EXTINF:-1 tvg-name="CCTV-风云剧场" tvg-id="CCTV-风云剧场" tvg-logo="https://raw.githubusercontent.com/x1ao4/tv-logos/main/tv-logos/CCTV%20%E9%A3%8E%E4%BA%91%E9%A2%91%E9%81%93%20%E7%81%B0%E7%99%BD%E6%B8%90%E5%8F%98/CCTV-%E9%A3%8E%E4%BA%91%E5%89%A7%E5%9C%BA.png" group-title="付费频道",CCTV-风云剧场
+#EXTINF:-1 tvg-name="风云剧场" tvg-id="风云剧场" tvg-logo="https://raw.githubusercontent.com/x1ao4/tv-logos/main/tv-logos/CCTV%20%E9%A3%8E%E4%BA%91%E9%A2%91%E9%81%93%20%E7%81%B0%E7%99%BD%E6%B8%90%E5%8F%98/CCTV-%E9%A3%8E%E4%BA%91%E5%89%A7%E5%9C%BA.png" group-title="付费频道",风云剧场
 http://38.75.136.137:98/gslb/dsdqpub/fyjc.m3u8?auth=testpub
-#EXTINF:-1 tvg-name="CCTV-怀旧剧场" tvg-id="CCTV-怀旧剧场" tvg-logo="https://raw.githubusercontent.com/x1ao4/tv-logos/main/tv-logos/CCTV%20%E9%A3%8E%E4%BA%91%E9%A2%91%E9%81%93%20%E7%81%B0%E7%99%BD%E6%B8%90%E5%8F%98/CCTV-%E6%80%80%E6%97%A7%E5%89%A7%E5%9C%BA.png" group-title="付费频道",CCTV-怀旧剧场
+#EXTINF:-1 tvg-name="怀旧剧场" tvg-id="怀旧剧场" tvg-logo="https://raw.githubusercontent.com/x1ao4/tv-logos/main/tv-logos/CCTV%20%E9%A3%8E%E4%BA%91%E9%A2%91%E9%81%93%20%E7%81%B0%E7%99%BD%E6%B8%90%E5%8F%98/CCTV-%E6%80%80%E6%97%A7%E5%89%A7%E5%9C%BA.png" group-title="付费频道",怀旧剧场
 http://38.75.136.137:98/gslb/dsdqpub/hjjc.m3u8?auth=testpub
-#EXTINF:-1 tvg-name="CCTV-世界地理" tvg-id="CCTV-世界地理" tvg-logo="https://raw.githubusercontent.com/x1ao4/tv-logos/main/tv-logos/CCTV%20%E9%A3%8E%E4%BA%91%E9%A2%91%E9%81%93%20%E7%81%B0%E7%99%BD%E6%B8%90%E5%8F%98/CCTV-%E4%B8%96%E7%95%8C%E5%9C%B0%E7%90%86.png" group-title="付费频道",CCTV-世界地理
+#EXTINF:-1 tvg-name="世界地理" tvg-id="世界地理" tvg-logo="https://raw.githubusercontent.com/x1ao4/tv-logos/main/tv-logos/CCTV%20%E9%A3%8E%E4%BA%91%E9%A2%91%E9%81%93%20%E7%81%B0%E7%99%BD%E6%B8%90%E5%8F%98/CCTV-%E4%B8%96%E7%95%8C%E5%9C%B0%E7%90%86.png" group-title="付费频道",世界地理
 http://38.75.136.137:98/gslb/dsdqpub/sjdl.m3u8?auth=testpub
 #EXTINF:-1 tvg-name="重温经典" tvg-id="重温经典" tvg-logo="https://raw.githubusercontent.com/samkolau/TVLOGO/main/logo/DIG/%E9%87%8D%E6%B8%A9%E7%BB%8F%E5%85%B8.png" group-title="高清频道",重温经典
 http://8.138.7.223/tv/cwjd.php
