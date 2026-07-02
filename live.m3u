@@ -1,11 +1,11 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="CCTV5" tvg-id="CCTV5" tvg-logo="https://raw.githubusercontent.com/samkolau/TVLOGO/main/logo/CCTV/CCTV5体育.png" group-title="央视频道", CCTV-5体育
+#EXTINF:-1 tvg-name="CCTV5" tvg-id="CCTV5" tvg-logo="https://raw.githubusercontent.com/x1ao4/tv-logos/main/tv-logos/CCTV%20%E9%80%8F%E6%98%8E%E7%99%BD%E5%BA%95/CCTV-5.png" group-title="央视频道", CCTV-5体育
 http://82.156.243.185:36888/av3a/cctv5n.m3u8
-#EXTINF:-1 tvg-name="CCTV5+" tvg-id="CCTV5+" tvg-logo="https://raw.githubusercontent.com/samkolau/TVLOGO/main/logo/CCTV/CCTV5+赛事.png" group-title="央视频道", CCTV-5+体育赛事
+#EXTINF:-1 tvg-name="CCTV5+" tvg-id="CCTV5+" tvg-logo="https://raw.githubusercontent.com/x1ao4/tv-logos/main/tv-logos/CCTV%20%E9%80%8F%E6%98%8E%E7%99%BD%E5%BA%95/CCTV-5p.png" group-title="央视频道", CCTV-5+体育赛事
 http://82.156.243.185:36888/av3a/cctv5pn.m3u8
-#EXTINF:-1 tvg-name="CCTV6" tvg-id="CCTV6" tvg-logo="https://raw.githubusercontent.com/samkolau/TVLOGO/main/logo/CCTV/CCTV6电影.png" group-title="央视频道", CCTV-6电影
+#EXTINF:-1 tvg-name="CCTV6" tvg-id="CCTV6" tvg-logo="https://raw.githubusercontent.com/x1ao4/tv-logos/main/tv-logos/CCTV%20%E9%80%8F%E6%98%8E%E7%99%BD%E5%BA%95/CCTV-6.png" group-title="央视频道", CCTV-6电影
 http://120.76.248.139/live/bfgd/4200000065.m3u8
-#EXTINF:-1 tvg-name="CCTV10" tvg-id="CCTV10" tvg-logo="https://raw.githubusercontent.com/samkolau/TVLOGO/main/logo/CCTV/CCTV10%E7%A7%91%E6%95%99.png" group-title="央视频道", CCTV-10科教
+#EXTINF:-1 tvg-name="CCTV10" tvg-id="CCTV10" tvg-logo="https://raw.githubusercontent.com/x1ao4/tv-logos/main/tv-logos/CCTV%20%E9%80%8F%E6%98%8E%E7%99%BD%E5%BA%95/CCTV-10.png" group-title="央视频道", CCTV-10科教
 http://113.26.202.52:1299/tsfile/live/0010_1.m3u8
 #EXTINF:-1 tvg-name="CCTV16" tvg-id="CCTV16" tvg-logo="https://raw.githubusercontent.com/x1ao4/tv-logos/main/tv-logos/CCTV%20%E9%80%8F%E6%98%8E%E7%99%BD%E5%BA%95/CCTV-16_1.png" group-title="央视频道",CCTV-16奥林匹克
 http://82.156.243.185:36888/av3a/cctv16n.m3u8
