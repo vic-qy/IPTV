@@ -1,6 +1,8 @@
 #EXTM3U
 #EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://raw.githubusercontent.com/x1ao4/tv-logos/main/tv-logos/CCTV%20%E9%80%8F%E6%98%8E%E7%99%BD%E5%BA%95/CCTV-1.png" group-title="央视频道",CCTV-1综合
 http://74.91.26.218:82/live/cctv1hd.m3u8
+#EXTINF:-1 tvg-name="CCTV3" tvg-logo="https://raw.githubusercontent.com/x1ao4/tv-logos/main/tv-logos/CCTV%20%E9%80%8F%E6%98%8E%E7%99%BD%E5%BA%95/CCTV-3.png" group-title="央视频道",CCTV-3综艺
+http://74.91.26.218:82/live/cctv3hd.m3u8
 #EXTINF:-1 tvg-name="CCTV4" tvg-logo="https://raw.githubusercontent.com/x1ao4/tv-logos/main/tv-logos/CCTV%20%E9%80%8F%E6%98%8E%E7%99%BD%E5%BA%95/CCTV-4.png" group-title="央视频道",CCTV-4中文国际
 http://74.91.26.218:82/live/cctv4hd.m3u8
 #EXTINF:-1 tvg-name="CCTV5" tvg-logo="https://raw.githubusercontent.com/x1ao4/tv-logos/main/tv-logos/CCTV%20%E9%80%8F%E6%98%8E%E7%99%BD%E5%BA%95/CCTV-5.png" group-title="央视频道", CCTV-5体育
@@ -17,6 +19,10 @@ http://74.91.26.218:82/live/cctv7hd.m3u8
 http://113.26.202.52:1299/tsfile/live/0010_1.m3u8
 #EXTINF:-1 tvg-name="CCTV10" tvg-logo="https://raw.githubusercontent.com/x1ao4/tv-logos/main/tv-logos/CCTV%20%E9%80%8F%E6%98%8E%E7%99%BD%E5%BA%95/CCTV-10.png" group-title="央视频道", CCTV-10科教
 http://74.91.26.218:82/live/cctv10hd.m3u8
+#EXTINF:-1 tvg-name="CCTV13" tvg-logo="https://raw.githubusercontent.com/x1ao4/tv-logos/main/tv-logos/CCTV%20%E9%80%8F%E6%98%8E%E7%99%BD%E5%BA%95/CCTV-13.png" group-title="央视频道", CCTV-13新闻
+http://74.91.26.218:82/live/cctv13hd.m3u8
+#EXTINF:-1 tvg-name="CCTV14" tvg-logo="https://raw.githubusercontent.com/x1ao4/tv-logos/main/tv-logos/CCTV%20%E9%80%8F%E6%98%8E%E7%99%BD%E5%BA%95/CCTV-14.png" group-title="央视频道", CCTV-14少儿
+http://74.91.26.218:82/live/cctv14hd.m3u8
 #EXTINF:-1 tvg-name="CCTV16" tvg-logo="https://raw.githubusercontent.com/x1ao4/tv-logos/main/tv-logos/CCTV%20%E9%80%8F%E6%98%8E%E7%99%BD%E5%BA%95/CCTV-16_1.png" group-title="央视频道",CCTV-16奥林匹克
 http://82.156.243.185:36888/av3a/cctv16n.m3u8
 #EXTINF:-1 tvg-name="CCTV4K" tvg-logo="https://raw.githubusercontent.com/x1ao4/tv-logos/main/tv-logos/CCTV%20%E9%80%8F%E6%98%8E%E7%99%BD%E5%BA%95/CCTV-4K.png" group-title="央视频道",CCTV-4K超高清
