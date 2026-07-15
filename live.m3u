@@ -92,6 +92,10 @@ http://38.75.136.137:98/gslb/dsdqpub/sjdl.m3u8?auth=testpub
 http://8.138.7.223/tv/cwjd.php
 #EXTINF:-1 tvg-name="CHC家庭影院" tvg-logo="https://livecdn.zbds.org/logo/CHC%E5%AE%B6%E5%BA%AD%E5%BD%B1%E9%99%A2.png" group-title="高清频道",CHC家庭影院
 http://222.209.123.95:2222/rtp/239.94.1.173:5140
+#EXTINF:-1 tvg-id="武侠剧场" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E6%AD%A6%E4%BE%A0%E5%89%A7%E5%9C%BA%28%E8%BD%AE%E6%92%AD%E9%A2%91%E9%81%93%29HD.png" group-title="高清频道",武侠剧场
+http://27.10.91.221:4022/rtp/225.0.4.168:7980
+#EXTINF:-1 tvg-name="都市剧场" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E9%83%BD%E5%B8%82%E5%89%A7%E5%9C%BAHD.png" group-title="高清频道",都市剧场
+http://113.205.199.238:8001/rtp/225.0.4.235:7980
 #EXTINF:-1 tvg-name="浙江钱江" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Zhejiang1.png" group-title="高清频道",浙江钱江
 http://ali-xwl.cztv.com/live/channel021080Plxw.m3u8
 #EXTINF:-1 tvg-name="浙江国际" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Zhejiang7.png" group-title="高清频道",浙江国际
@@ -100,6 +104,8 @@ http://ali-xwl.cztv.com/live/channel101080Plxw.m3u8
 http://ali-xwl.cztv.com/live/channel041080Plxw.m3u8
 #EXTINF:-1 tvg-name="浙江少儿" tvg-logo="https://livecdn.zbds.org/logo/浙江少儿.png" group-title="高清频道", 浙江少儿
 http://ali-xwl.cztv.com/live/channel081080Plxw.m3u8
+#EXTINF:-1 tvg-name"重庆少儿" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E9%87%8D%E5%BA%86%E5%B0%91%E5%84%BFHD.png" group-title="高清频道",重庆少儿
+http://113.205.199.238:8001/rtp/225.0.4.191:7980
 #EXTINF:-1 tvg-name="河南都市" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Henan1.png" group-title="高清频道",河南都市
 http://1.94.31.214/php/hntv.php?id=hnds
 #EXTINF:-1 tvg-name="湖南电影" tvg-logo="https://livecdn.zbds.org/logo/%E6%B9%96%E5%8D%97%E7%94%B5%E5%BD%B1.png" group-title="高清频道",湖南电影
