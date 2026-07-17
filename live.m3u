@@ -128,6 +128,10 @@ http://r.jdshipin.com/CkuBd
 https://english-livebkali.cgtn.com/live/encgtn.m3u8
 #EXTINF:-1 group-title="外语频道" tvg-name="CGTN纪录" tvg-logo="https://raw.githubusercontent.com/samkolau/TVLOGO/main/logo/CCTV/CGTN纪录.png",CGTN纪录
 https://english-livebkali.cgtn.com/live/doccgtn.m3u8
+#EXTINF:-1 group-title="外语频道" tvg-name="CGTN俄语" tvg-logo="https://tb.zbds.top/logo/CGTN俄语.png",CGTN俄语
+http://russian-livews.cgtn.com/hls/LSvexABhNipibK5KRuUkvHZ7220802LSTeze9o8tdFXMHsb1VosgoT220802cd.m3u8
+#EXTINF:-1 group-title="外语频道" tvg-name="CGTN西语" tvg-logo="https://tb.zbds.top/logo/CGTN西语.png",CGTN西语
+https://0472.org/hls/cgtnx.m3u8
 #EXTINF:-1 group-title="轮播频道",黄百鸣
 http://74.91.26.218:82/live/vlhbm.m3u8
 #EXTINF:-1 group-title="轮播频道",周润发
