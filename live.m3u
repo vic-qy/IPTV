@@ -39,6 +39,8 @@ http://74.91.26.218:82/live/cctv17hd.m3u8
 http://82.156.243.185:36888/av3a/cctv4kn.m3u8
 #EXTINF:-1 group-title="央视频道" tvg-name="CCTV-8K超高清" tvg-logo="https://raw.githubusercontent.com/x1ao4/tv-logos/main/tv-logos/CCTV%20%E9%80%8F%E6%98%8E%E7%99%BD%E5%BA%95/CCTV-8K.png",CCTV-8K超高清
 http://82.156.243.185:36888/av3a/cctv8kn.m3u8
+#EXTINF:-1 group-title="4K频道" tvg-name="北京卫视" tvg-logo="https://raw.githubusercontent.com/samkolau/TVLOGO/main/logo/CN4K/北京卫视4K.png",北京卫视
+http://45.192.97.170:8880/play/521.m3u8
 #EXTINF:-1 group-title="4K频道" tvg-name="浙江卫视" tvg-logo="https://raw.githubusercontent.com/samkolau/TVLOGO/main/logo/CN4K/%E6%B5%99%E6%B1%9F%E5%8D%AB%E8%A7%864K.png",浙江卫视
 http://ali-xwl.cztv.com/live/channel4k2160p.m3u8
 https://bd-xwl.cztv.com/live/channel4k2160p.m3u8
@@ -51,6 +53,8 @@ http://8.138.7.223/tv/jsws4k.php
 #EXTINF:-1 group-title="4K频道" tvg-name="深圳卫视" tvg-logo="https://raw.githubusercontent.com/samkolau/TVLOGO/main/logo/CN4K/%E6%B7%B1%E5%9C%B3%E5%8D%AB%E8%A7%864K.png",深圳卫视
 http://nn.7x9d.cn/深圳最新.php?id=szws4k
 http://ikuai.haleeyo.cn:9003/udp/239.77.1.14:5146
+#EXTINF:-1 group-title="4K频道" tvg-name="多彩文体4K" tvg-logo="https://raw.githubusercontent.com/samkolau/TVLOGO/main/logo/CN4K/%E6%AC%A2%E7%AC%91%E5%89%A7%E5%9C%BA4K.png",多彩文体4K
+http://45.192.97.170:8880/play/2954.m3u8
 #EXTINF:-1 group-title="卫视频道" tvg-name="四川卫视" tvg-logo="https://raw.githubusercontent.com/samkolau/TVLOGO/main/logo/CN/%E5%9B%9B%E5%B7%9D%E5%8D%AB%E8%A7%86.png",四川卫视
 http://38.75.136.137:98/gslb/dsdqpub/scwshd.m3u8?auth=testpub
 #EXTINF:-1 group-title="卫视频道" tvg-name="东方卫视" tvg-logo="https://raw.githubusercontent.com/samkolau/TVLOGO/main/logo/CN/%E4%B8%9C%E6%96%B9%E5%8D%AB%E8%A7%86.png",东方卫视
