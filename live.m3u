@@ -115,6 +115,8 @@ http://113.205.199.238:8001/rtp/225.0.4.191:7980
 http://1.94.31.214/php/hntv.php?id=hnds
 #EXTINF:-1 group-title="高清频道" tvg-name="湖南电影" tvg-logo="https://livecdn.zbds.org/logo/%E6%B9%96%E5%8D%97%E7%94%B5%E5%BD%B1.png",湖南电影
 http://218.77.84.102:85/tsfile/live/149/2005_1.m3u8?key=txiptv
+#EXTINF:-1 group-title="高清频道" tvg-name="广东体育" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/Guangdong5.png",广东体育
+http://116.77.239.26:44300/tsfile/live/0124_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 group-title="高清频道" tvg-logo="https://livecdn.zbds.org/logo/%E5%96%9C%E5%89%A7%E5%BD%B1%E9%99%A2.png",喜剧影院
 http://74.91.26.218:82/live/vlxjyy.m3u8
 #EXTINF:-1 group-title="高清频道" tvg-name="纪实科教" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Beijing5.png",纪实科教
