@@ -104,6 +104,12 @@ http://38.75.136.137:98/gslb/dsdqpub/hjjc.m3u8?auth=testpub
 http://38.75.136.137:98/gslb/dsdqpub/sjdl.m3u8?auth=testpub
 #EXTINF:-1 group-title="付费频道" tvg-name="CHC家庭影院" tvg-logo="https://livecdn.zbds.org/logo/CHC%E5%AE%B6%E5%BA%AD%E5%BD%B1%E9%99%A2.png",CHC家庭影院
 http://171.213.239.128:4040/rtp/239.94.1.173:5140
+#EXTINF:-1 group-title="付费频道" tvg-name="CHC动作电影" tvg-logo="https://raw.githubusercontent.com/samkolau/TVLOGO/main/logo/DIG/CHC%E5%8A%A8%E4%BD%9C%E7%94%B5%E5%BD%B1.png",CHC动作电影
+http://171.213.239.128:4040/rtp/239.94.1.175:5140
+#EXTINF:-1 group-title="付费频道" tvg-name="IPTV经典电影" tvg-logo="https://raw.githubusercontent.com/mytv-android/myTVlogo/main/img/IPTV%E7%BB%8F%E5%85%B8%E7%94%B5%E5%BD%B1.png",IPTV经典电影
+http://171.213.239.128:4040/rtp/239.94.1.21:5140
+#EXTINF:-1 group-title="付费频道" tvg-name="动漫秀场" tvg-logo="https://raw.githubusercontent.com/samkolau/TVLOGO/main/logo/DIG/%E5%8A%A8%E6%BC%AB%E7%A7%80%E5%9C%BA.png",动漫秀场
+http://171.213.239.128:4040/rtp/239.94.1.171:5140
 #EXTINF:-1 group-title="高清频道" tvg-name="重温经典" tvg-logo="https://raw.githubusercontent.com/samkolau/TVLOGO/main/logo/DIG/%E9%87%8D%E6%B8%A9%E7%BB%8F%E5%85%B8.png",重温经典
 http://8.138.7.223/tv/cwjd.php
 #EXTINF:-1 group-title="高清频道" tvg-name="武侠剧场" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E6%AD%A6%E4%BE%A0%E5%89%A7%E5%9C%BA%28%E8%BD%AE%E6%92%AD%E9%A2%91%E9%81%93%29HD.png",武侠剧场
