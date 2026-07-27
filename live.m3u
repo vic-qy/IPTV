@@ -54,6 +54,7 @@ http://8.138.7.223/tv/jsws4k.php
 http://nn.7x9d.cn/深圳最新.php?id=szws4k
 http://ikuai.haleeyo.cn:9003/udp/239.77.1.14:5146
 #EXTINF:-1 group-title="4K频道" tvg-name="爱上4K",爱上4K
+http://171.213.239.128:4040/rtp/239.94.0.21:5140
 #EXTINF:-1 group-title="4K频道" tvg-name="多彩文体4K" tvg-logo="https://raw.githubusercontent.com/samkolau/TVLOGO/main/logo/CN4K/%E6%AC%A2%E7%AC%91%E5%89%A7%E5%9C%BA4K.png",多彩文体4K
 http://45.192.97.170:8880/play/2954.m3u8
 http://171.213.239.128:4040/rtp/239.94.1.176:5140
