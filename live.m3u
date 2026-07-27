@@ -53,13 +53,18 @@ http://8.138.7.223/tv/jsws4k.php
 #EXTINF:-1 group-title="4K频道" tvg-name="深圳卫视" tvg-logo="https://raw.githubusercontent.com/samkolau/TVLOGO/main/logo/CN4K/%E6%B7%B1%E5%9C%B3%E5%8D%AB%E8%A7%864K.png",深圳卫视
 http://nn.7x9d.cn/深圳最新.php?id=szws4k
 http://ikuai.haleeyo.cn:9003/udp/239.77.1.14:5146
-#EXTINF:-1 group-title="4K频道" tvg-name="爱上4K",爱上4K
+#EXTINF:-1 group-title="4K频道" tvg-name="爱上4K" tvg-logo="https://v6.gh-proxy.org/https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/ah4k.png",爱上4K
 http://171.213.239.128:4040/rtp/239.94.0.21:5140
+#EXTINF:-1 group-title="4K频道" tvg-name="4K乐享超清",4K乐享超清
+http://171.213.239.128:4040/rtp/239.94.1.162:5140
+#EXTINF:-1 group-title="4K频道" tvg-name="绚影4K",绚影4K
+http://171.213.239.128:4040/rtp/239.94.1.150:5140
 #EXTINF:-1 group-title="4K频道" tvg-name="多彩文体4K" tvg-logo="https://raw.githubusercontent.com/samkolau/TVLOGO/main/logo/CN4K/%E6%AC%A2%E7%AC%91%E5%89%A7%E5%9C%BA4K.png",多彩文体4K
 http://45.192.97.170:8880/play/2954.m3u8
 http://171.213.239.128:4040/rtp/239.94.1.176:5140
 #EXTINF:-1 group-title="卫视频道" tvg-name="四川卫视" tvg-logo="https://raw.githubusercontent.com/samkolau/TVLOGO/main/logo/CN/%E5%9B%9B%E5%B7%9D%E5%8D%AB%E8%A7%86.png",四川卫视
 http://38.75.136.137:98/gslb/dsdqpub/scwshd.m3u8?auth=testpub
+http://171.213.239.128:4040/rtp/239.94.0.115:5140
 #EXTINF:-1 group-title="卫视频道" tvg-name="东方卫视" tvg-logo="https://raw.githubusercontent.com/samkolau/TVLOGO/main/logo/CN/%E4%B8%9C%E6%96%B9%E5%8D%AB%E8%A7%86.png",东方卫视
 http://38.75.136.137:98/gslb/dsdqbv/dfwshd.m3u8?auth=test20251009
 #EXTINF:-1 group-title="卫视频道" tvg-name="河南卫视" tvg-logo="https://raw.githubusercontent.com/samkolau/TVLOGO/main/logo/CN/%E6%B2%B3%E5%8D%97%E5%8D%AB%E8%A7%86.png",河南卫视
@@ -96,10 +101,10 @@ http://38.75.136.137:98/gslb/dsdqpub/fyjc.m3u8?auth=testpub
 http://38.75.136.137:98/gslb/dsdqpub/hjjc.m3u8?auth=testpub
 #EXTINF:-1 group-title="付费频道" tvg-name="世界地理" tvg-logo="https://raw.githubusercontent.com/x1ao4/tv-logos/main/tv-logos/CCTV%20%E9%A3%8E%E4%BA%91%E9%A2%91%E9%81%93%20%E7%81%B0%E7%99%BD%E6%B8%90%E5%8F%98/CCTV-%E4%B8%96%E7%95%8C%E5%9C%B0%E7%90%86.png",世界地理
 http://38.75.136.137:98/gslb/dsdqpub/sjdl.m3u8?auth=testpub
+#EXTINF:-1 group-title="付费频道" tvg-name="CHC家庭影院" tvg-logo="https://livecdn.zbds.org/logo/CHC%E5%AE%B6%E5%BA%AD%E5%BD%B1%E9%99%A2.png",CHC家庭影院
+http://171.213.239.128:4040/rtp/239.94.1.173:5140
 #EXTINF:-1 group-title="高清频道" tvg-name="重温经典" tvg-logo="https://raw.githubusercontent.com/samkolau/TVLOGO/main/logo/DIG/%E9%87%8D%E6%B8%A9%E7%BB%8F%E5%85%B8.png",重温经典
 http://8.138.7.223/tv/cwjd.php
-#EXTINF:-1 group-title="高清频道" tvg-name="CHC家庭影院" tvg-logo="https://livecdn.zbds.org/logo/CHC%E5%AE%B6%E5%BA%AD%E5%BD%B1%E9%99%A2.png",CHC家庭影院
-http://222.209.123.95:2222/rtp/239.94.1.173:5140
 #EXTINF:-1 group-title="高清频道" tvg-name="武侠剧场" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E6%AD%A6%E4%BE%A0%E5%89%A7%E5%9C%BA%28%E8%BD%AE%E6%92%AD%E9%A2%91%E9%81%93%29HD.png",武侠剧场
 http://27.10.91.221:4022/rtp/225.0.4.168:7980
 #EXTINF:-1 group-title="高清频道" tvg-name="都市剧场" tvg-logo="https://raw.githubusercontent.com/samkolau/TVLOGO/main/logo/DIG/%E9%83%BD%E5%B8%82%E5%89%A7%E5%9C%BA.png",都市剧场
