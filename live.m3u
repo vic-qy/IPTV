@@ -37,6 +37,7 @@ http://82.156.243.185:36888/av3a/cctv16n.m3u8
 http://74.91.26.218:82/live/cctv17hd.m3u8
 #EXTINF:-1 group-title="央视频道" tvg-name="CCTV-4K超高清" tvg-logo="https://raw.githubusercontent.com/x1ao4/tv-logos/main/tv-logos/CCTV%20%E9%80%8F%E6%98%8E%E7%99%BD%E5%BA%95/CCTV-4K.png",CCTV-4K超高清
 http://82.156.243.185:36888/av3a/cctv4kn.m3u8
+http://171.213.239.128:4040/rtp/239.94.0.20:5140
 #EXTINF:-1 group-title="央视频道" tvg-name="CCTV-8K超高清" tvg-logo="https://raw.githubusercontent.com/x1ao4/tv-logos/main/tv-logos/CCTV%20%E9%80%8F%E6%98%8E%E7%99%BD%E5%BA%95/CCTV-8K.png",CCTV-8K超高清
 http://82.156.243.185:36888/av3a/cctv8kn.m3u8
 #EXTINF:-1 group-title="4K频道" tvg-name="北京卫视" tvg-logo="https://raw.githubusercontent.com/samkolau/TVLOGO/main/logo/CN4K/北京卫视4K.png",北京卫视
