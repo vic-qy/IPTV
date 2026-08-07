@@ -124,6 +124,8 @@ http://ali-xwl.cztv.com/live/channel101080Plxw.m3u8
 http://ali-xwl.cztv.com/live/channel041080Plxw.m3u8
 #EXTINF:-1 group-title="高清频道" tvg-name="浙江少儿" tvg-logo="https://livecdn.zbds.org/logo/浙江少儿.png",浙江少儿
 http://ali-xwl.cztv.com/live/channel081080Plxw.m3u8
+#EXTINF:-1 group-title="高清频道" tvg-name="广东珠江",广东珠江
+http://45.192.97.170:8880/play/1208.m3u8
 #EXTINF:-1 group-title="高清频道" tvg-name="重庆少儿" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Chongqing8.png",重庆少儿
 http://113.205.199.238:8001/rtp/225.0.4.191:7980
 #EXTINF:-1 group-title="高清频道" tvg-name="河南都市" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Henan1.png",河南都市
