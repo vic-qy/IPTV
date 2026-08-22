@@ -160,3 +160,5 @@ https://0472.org/hls/cgtnx.m3u8
 http://74.91.26.218:82/live/vlhbm.m3u8
 #EXTINF:-1 group-title="轮播频道",周润发
 http://74.91.26.218:82/live/vlzrf.m3u8
+#EXTINF:-1 group-title="国际频道",Xtrema TV - Cine Acción
+https://stmv6.voxtvhd.com.br/cineaccion/cineaccion/playlist.m3u8
