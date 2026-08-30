@@ -176,4 +176,4 @@ https://v6.gh-proxy.org/https://raw.githubusercontent.com/vic-qy/IPTV/main/k-web
 # #EXTINF:-1 group-title="KU9专用" tvg-name="成都少儿频道",成都少儿频道
 # https://v6.gh-proxy.org/https://raw.githubusercontent.com/vic-qy/IPTV/main/k-web/ku9/js/cdtv.js?id=cdse
 #EXTINF:-1 group-title="KU9专用" tvg-name="成都少儿频道",成都少儿频道
-http://A/ku9/js/cdtv.js?id=cdse
+http://ku9/js/cdtv.js?id=cdse
