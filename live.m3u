@@ -176,8 +176,8 @@ http://ku9/js/cdtv.js?id=cdgg
 #EXTINF:-1 group-title="KU9专用" tvg-name="成都少儿频道",成都少儿频道
 http://ku9/js/cdtv.js?id=cdse
 #EXTINF:-1 group-title="KU9专用" tvg-name="西安新闻综合",西安新闻综合
-https://ku9/js/xian.js?id=1
+http://ku9/js/xian.js?id=1
 #EXTINF:-1 group-title="KU9专用" tvg-name="西安都市频道",西安都市频道
-https://ku9/js/xian.js?id=2
+http://ku9/js/xian.js?id=2
 #EXTINF:-1 group-title="KU9专用" tvg-name="西安移动电视",西安移动电视
-https://ku9/js/xian.js?id=7
+http://ku9/js/xian.js?id=7
