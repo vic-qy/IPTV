@@ -162,3 +162,5 @@ http://74.91.26.218:82/live/vlhbm.m3u8
 http://74.91.26.218:82/live/vlzrf.m3u8
 #EXTINF:-1 group-title="国际频道",Xtrema TV - Cine Acción
 https://stmv6.voxtvhd.com.br/cineaccion/cineaccion/playlist.m3u8
+#EXTINF:-1 group-title="测试",成都新闻综合
+http://ku9/py/cdtv.py?id=cdxw
