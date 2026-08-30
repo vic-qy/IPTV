@@ -164,16 +164,14 @@ http://74.91.26.218:82/live/vlzrf.m3u8
 https://stmv6.voxtvhd.com.br/cineaccion/cineaccion/playlist.m3u8
 
 #EXTINF:-1 group-title="KU9专用" tvg-name="成都新闻综合" ,成都新闻综合
-https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/k-web/ku9/js/cdtv.js?id=cdxw
+http://ku9/js/cdtv.js?id=cdxw
 #EXTINF:-1 group-title="KU9专用" tvg-name="成都经济资讯",成都经济资讯
-https://v6.gh-proxy.org/https://raw.githubusercontent.com/vic-qy/IPTV/main/k-web/ku9/js/cdtv.js?id=cdjj
+http://ku9/js/cdtv.js?id=cdjj
 #EXTINF:-1 group-title="KU9专用" tvg-name="成都都市生活",成都都市生活
-https://v6.gh-proxy.org/https://raw.githubusercontent.com/vic-qy/IPTV/main/k-web/ku9/js/cdtv.js?id=cdds
+http://ku9/js/cdtv.js?id=cdds
 #EXTINF:-1 group-title="KU9专用" tvg-name="成都影视文艺",成都影视文艺
-https://v6.gh-proxy.org/https://raw.githubusercontent.com/vic-qy/IPTV/main/k-web/ku9/js/cdtv.js?id=cdys
+http://ku9/js/cdtv.js?id=cdys
 #EXTINF:-1 group-title="KU9专用" tvg-name="成都公共频道",成都公共频道
-https://v6.gh-proxy.org/https://raw.githubusercontent.com/vic-qy/IPTV/main/k-web/ku9/js/cdtv.js?id=cdgg
-# #EXTINF:-1 group-title="KU9专用" tvg-name="成都少儿频道",成都少儿频道
-# https://v6.gh-proxy.org/https://raw.githubusercontent.com/vic-qy/IPTV/main/k-web/ku9/js/cdtv.js?id=cdse
+http://ku9/js/cdtv.js?id=cdgg
 #EXTINF:-1 group-title="KU9专用" tvg-name="成都少儿频道",成都少儿频道
 http://ku9/js/cdtv.js?id=cdse
