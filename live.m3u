@@ -164,3 +164,15 @@ http://74.91.26.218:82/live/vlzrf.m3u8
 https://stmv6.voxtvhd.com.br/cineaccion/cineaccion/playlist.m3u8
 #EXTINF:-1 group-title="测试",成都新闻综合
 http://ku9/py/cdtv.py?id=cdxw
+#EXTINF:-1 group-title="成都台",成都新闻综合
+http://ku9/js/cdtv.js?id=cdxw
+#EXTINF:-1 group-title="成都台",成都经济资讯
+http://ku9/js/cdtv.js?id=cdjj
+#EXTINF:-1 group-title="成都台",成都都市生活
+http://ku9/js/cdtv.js?id=cdds
+#EXTINF:-1 group-title="成都台",成都影视文艺
+http://ku9/js/cdtv.js?id=cdys
+#EXTINF:-1 group-title="成都台",成都公共频道
+http://ku9/js/cdtv.js?id=cdgg
+#EXTINF:-1 group-title="成都台",成都少儿频道
+http://ku9/js/cdtv.js?id=cdse
