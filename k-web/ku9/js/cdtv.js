@@ -12,8 +12,6 @@
  * 用到的酷9内置函数：ku9.get(url, headers)
  */
 
-'use strict';
-
 // ---------------------------------------------------------------------------
 // 配置区
 // ---------------------------------------------------------------------------
@@ -170,3 +168,14 @@ function main(item) {
         headers: PLAY_HEADERS,
     };
 }
+
+// 兼容导出：确保无论酷9以何种方式加载脚本（eval / Function 包装等），
+// 外层的 main 调用都能找到本函数。
+(function () {
+    var g = (typeof globalThis !== 'undefined') ? globalThis
+          : (typeof global !== 'undefined') ? global
+          : this;
+    if (g) { g.main = main; }
+    if (typeof module !== 'undefined' && module.exports) { module.exports = { main: main }; }
+})();
+
