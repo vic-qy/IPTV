@@ -163,17 +163,17 @@ http://74.91.26.218:82/live/vlzrf.m3u8
 #EXTINF:-1 group-title="国际频道",Xtrema TV - Cine Acción
 https://stmv6.voxtvhd.com.br/cineaccion/cineaccion/playlist.m3u8
 
-#EXTINF:-1 group-title="KU9专用" tvg-name="CDTV1" tvg-name="成都新闻综合" ,成都新闻综合
+#EXTINF:-1 group-title="KU9专用" tvg-name="CDTV1",成都新闻综合
 http://ku9/js/cdtv.js?id=cdxw
-#EXTINF:-1 group-title="KU9专用" tvg-name="CDTV2" tvg-name="成都经济资讯",成都经济资讯
+#EXTINF:-1 group-title="KU9专用" tvg-name="CDTV2",成都经济资讯
 http://ku9/js/cdtv.js?id=cdjj
-#EXTINF:-1 group-title="KU9专用" tvg-name="CDTV3" tvg-name="成都都市生活",成都都市生活
+#EXTINF:-1 group-title="KU9专用" tvg-name="CDTV3",成都都市生活
 http://ku9/js/cdtv.js?id=cdds
-#EXTINF:-1 group-title="KU9专用" tvg-name="CDTV4" tvg-name="成都影视文艺",成都影视文艺
+#EXTINF:-1 group-title="KU9专用" tvg-name="CDTV4",成都影视文艺
 http://ku9/js/cdtv.js?id=cdys
-#EXTINF:-1 group-title="KU9专用" tvg-name="CDTV5" tvg-name="成都公共频道",成都公共频道
+#EXTINF:-1 group-title="KU9专用" tvg-name="CDTV5",成都公共频道
 http://ku9/js/cdtv.js?id=cdgg
-#EXTINF:-1 group-title="KU9专用" tvg-name="CDTV6" tvg-name="成都少儿频道",成都少儿频道
+#EXTINF:-1 group-title="KU9专用" tvg-name="CDTV6",成都少儿频道
 http://ku9/js/cdtv.js?id=cdse
 #EXTINF:-1 group-title="KU9专用" tvg-name="西安新闻综合",西安新闻综合
 http://ku9/js/xian.js?id=1
