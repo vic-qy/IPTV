@@ -94,6 +94,29 @@ https://njzb.scnj.tv/hls_njtv_direct/9.m3u8
 https://tvfile.jjrm.org.cn/nmip-media/channellive/channel106282/playlist.m3u8
 #EXTINF:-1 group-title="酷9JS" tvg-name="江苏卫视",江苏卫视
 https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/jstv.js?id=jsws
+#EXTINF:-1 group-title="酷9JS" tvg-name="江苏城市",江苏城市
+https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/jstv.js?id=jscs
+
+#EXTINF:-1 group-title="酷9JS" tvg-name="江苏新闻",江苏新闻
+https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/jstv.js?id=jsxw
+
+#EXTINF:-1 group-title="酷9JS" tvg-name="江苏综艺",江苏综艺
+https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/jstv.js?id=jszy
+
+#EXTINF:-1 group-title="酷9JS" tvg-name="江苏影视",江苏影视
+https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/jstv.js?id=jsys
+
+#EXTINF:-1 group-title="酷9JS" tvg-name="江苏体育休闲",江苏体育休闲
+https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/jstv.js?id=jsxx
+
+#EXTINF:-1 group-title="酷9JS" tvg-name="江苏教育",江苏教育
+https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/jstv.js?id=jsjy
+
+#EXTINF:-1 group-title="酷9JS" tvg-name="江苏国际",江苏国际
+https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/jstv.js?id=jsgj
+
+#EXTINF:-1 group-title="酷9JS" tvg-name="优漫卡通",优漫卡通
+https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/jstv.js?id=ymkt
 #EXTINF:-1 group-title="酷9JS" tvg-name="CDTV1",成都新闻综合
 https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/cdtv.js?id=cdxw
 #EXTINF:-1 group-title="酷9JS" tvg-name="CDTV2",成都经济资讯
