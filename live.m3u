@@ -93,7 +93,7 @@ https://njzb.scnj.tv/hls_njtv_direct/9.m3u8
 #EXTINF:-1 group-title="四川频道" tvg-name="夹江新闻综合",夹江新闻综合
 https://tvfile.jjrm.org.cn/nmip-media/channellive/channel106282/playlist.m3u8
 #EXTINF:-1 group-title="酷9JS" tvg-name="CDTV1",成都新闻综合
-https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/ku9/js/k-web/ku9/js/cdtv.js?id=cdxw
+https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/cdtv.js?id=cdxw
 #EXTINF:-1 group-title="酷9JS" tvg-name="CDTV2",成都经济资讯
 http://ku9/js/cdtv.js?id=cdjj
 #EXTINF:-1 group-title="酷9JS" tvg-name="CDTV3",成都都市生活
