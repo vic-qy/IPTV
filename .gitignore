@@ -3,6 +3,8 @@ live/
 php/
 memo.md
 live.txt
+live.xml.gz
+web.m3u
 threadfin/backup
 threadfin/cache
 threadfin/authentication.json
