@@ -1,0 +1,109 @@
+#EXTM3U
+# 卫视频道
+#EXTINF:-1 group-title="卫视频道",内蒙古卫视
+https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/nmtv.js?id=3621481
+#EXTINF:-1 group-title="江苏频道" tvg-name="江苏卫视",江苏卫视
+https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/jstv.js?id=jsws
+#EXTINF:-1 group-title="卫视频道" ,海南卫视
+https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/hnntv.js?id=13
+
+# 少儿频道
+#EXTINF:-1 group-title="少儿频道" tvg-name="优漫卡通",优漫卡通
+https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/jstv.js?id=ymkt
+#EXTINF:-1 group-title="少儿频道" ,海南少儿
+https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/hnntv.js?id=7
+#EXTINF:-1 group-title="少儿频道",内蒙古少儿
+https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/nmtv.js?id=2318
+#EXTINF:-1 group-title="少儿频道" tvg-name="CDTV6",成都少儿频道
+https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/cdtv.js?id=cdse
+
+# 江苏频道
+#EXTINF:-1 group-title="江苏频道" tvg-name="江苏城市",江苏城市
+https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/jstv.js?id=jscs
+#EXTINF:-1 group-title="江苏频道" tvg-name="江苏新闻",江苏新闻
+https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/jstv.js?id=jsxw
+#EXTINF:-1 group-title="江苏频道" tvg-name="江苏综艺",江苏综艺
+https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/jstv.js?id=jszy
+#EXTINF:-1 group-title="江苏频道" tvg-name="江苏影视",江苏影视
+https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/jstv.js?id=jsys
+#EXTINF:-1 group-title="江苏频道" tvg-name="江苏体育休闲",江苏体育休闲
+https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/jstv.js?id=jsxx
+#EXTINF:-1 group-title="江苏频道" tvg-name="江苏教育",江苏教育
+https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/jstv.js?id=jsjy
+#EXTINF:-1 group-title="江苏频道" tvg-name="江苏国际",江苏国际
+https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/jstv.js?id=jsgj
+
+
+# 海南频道
+#EXTINF:-1 group-title="海南频道" ,三沙卫视
+https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/hnntv.js?id=5
+#EXTINF:-1 group-title="海南频道" ,海南自贸
+https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/hnntv.js?id=1
+#EXTINF:-1 group-title="海南频道" ,海南新闻
+https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/hnntv.js?id=3
+#EXTINF:-1 group-title="海南频道" ,海南社会与法
+https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/hnntv.js?id=4
+#EXTINF:-1 group-title="海南频道" ,海南文旅
+https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/hnntv.js?id=6
+
+
+# 四川频道
+#EXTINF:-1 group-title="四川频道" tvg-name="CDTV1",成都新闻综合
+https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/cdtv.js?id=cdxw
+#EXTINF:-1 group-title="四川频道" tvg-name="CDTV2",成都经济资讯
+https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/cdtv.js?id=cdjj
+#EXTINF:-1 group-title="四川频道" tvg-name="CDTV3",成都都市生活
+https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/cdtv.js?id=cdds
+#EXTINF:-1 group-title="四川频道" tvg-name="CDTV4",成都影视文艺
+https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/cdtv.js?id=cdys
+#EXTINF:-1 group-title="四川频道" tvg-name="CDTV5",成都公共频道
+https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/cdtv.js?id=cdgg
+
+# 广东频道
+#EXTINF:-1 group-title="广东频道" tvg-name="广州综合频道",广州综合频道
+https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/gz.js?id=3001
+#EXTINF:-1 group-title="广东频道" tvg-name="广州新闻频道",广州新闻频道
+https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/gz.js?id=3002
+#EXTINF:-1 group-title="广东频道" tvg-name="南国都市频道" tvg-logo="https://livecdn.zbds.org/logo/南国都市.png",南国都市频道
+https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/gz.js?id=3003
+
+# 陕西频道
+#EXTINF:-1 group-title="陕西频道" tvg-name="西安新闻综合",西安新闻综合
+https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/xian.js?id=1
+#EXTINF:-1 group-title="陕西频道" tvg-name="西安都市频道",西安都市频道
+https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/xian.js?id=2
+#EXTINF:-1 group-title="陕西频道" tvg-name="西安移动电视",西安移动电视
+https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/xian.js?id=7
+
+#EXTINF:-1 group-title="内蒙频道",内蒙古新闻综合
+https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/nmtv.js?id=2316
+#EXTINF:-1 group-title="内蒙频道",内蒙古经济生活
+https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/nmtv.js?id=2317
+#EXTINF:-1 group-title="内蒙频道",内蒙古文体娱乐
+https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/nmtv.js?id=2319
+#EXTINF:-1 group-title="内蒙频道",内蒙古农牧频道
+https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/nmtv.js?id=2320
+#EXTINF:-1 group-title="内蒙频道",呼和浩特
+https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/nmtv.js?id=2331
+#EXTINF:-1 group-title="内蒙频道",包头
+https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/nmtv.js?id=2358
+#EXTINF:-1 group-title="内蒙频道",乌海
+https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/nmtv.js?id=2355
+#EXTINF:-1 group-title="内蒙频道",赤峰
+https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/nmtv.js?id=2351
+#EXTINF:-1 group-title="内蒙频道",呼伦贝尔
+https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/nmtv.js?id=2356
+#EXTINF:-1 group-title="内蒙频道",兴安盟
+https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/nmtv.js?id=2357
+#EXTINF:-1 group-title="内蒙频道",通辽
+https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/nmtv.js?id=2353
+#EXTINF:-1 group-title="内蒙频道",锡林郭勒
+https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/nmtv.js?id=2346
+#EXTINF:-1 group-title="内蒙频道",乌兰察布
+https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/nmtv.js?id=2354
+#EXTINF:-1 group-title="内蒙频道",鄂尔多斯
+https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/nmtv.js?id=2349
+#EXTINF:-1 group-title="内蒙频道",巴彦淖尔
+https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/nmtv.js?id=2348
+#EXTINF:-1 group-title="内蒙频道",阿拉善
+https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/nmtv.js?id=2347
