@@ -1,32 +1,31 @@
 /*
- * sdtv.js —— 山东广播电视台（齐鲁网 v.iqilu.com）直播源解析脚本（酷9）
+ * sdtv.js —— 山东广播电视台 直播源解析脚本（酷9）
  * ---------------------------------------------------------------------------
+ * 频道：山东卫视、山东少儿
+ *
  * 数据来源：v.iqilu.com 直播页的鉴权交换接口
  *
  *   POST https://feiying.litenews.cn/api/v1/auth/exchange?t=<毫秒时间戳>&s=<签名>
- *        Content-Type: text/plain
- *        Body = AES-128-CBC( '{"channelMark":"<频道号>"}' )
- *        必要请求头：Origin 或 Referer 至少给一个（都给会 403）
+ *        Body = AES-128-CBC( '{"channelMark":"<频道号>"}' )   逐字节干净，不能有任何多余字符
+ *        请求头：必须带 Referer 含 iqilu.com 且 User-Agent 非空（否则 CDN 层 403）
  *
  *   - s        = md5( channelMark + t + 'QZMVKTRHPLXADJNE' )   小写十六进制
- *               （服务端强校验：签名与 body 里的 channelMark 必须匹配，否则 md5 check fail）
  *   - AES 密钥 = 'BWRFYSNCOGIXUTPA'，IV = 16 个 '0'，CBC + PKCS7，输出 base64
+ *   - Content-Type 必须是 text/plain / application/json / application/octet-stream 之一
+ *     一旦被当成 application/x-www-form-urlencoded 解析，服务端一定报 decrypt body fail!
  * 响应也是同一套 AES 加密的 base64，解出后 JSON 形如
  *        {"code":1,"data":"https://.../playlist.m3u8?k=...&t=..."}
- * 若参数有问题，服务端返回**明文** JSON，如 {"code":0,"errmsg":"md5 check fail!"}
+ * 参数不对时服务端返回**明文** JSON，如 {"code":0,"errmsg":"md5 check fail!"}
  *
- * 用法（脚本放仓库 js/sdtv.js，走 jsDelivr 等直链）：
- *   单频道：.../sdtv.js?id=sdtv      山东卫视
- *           或 .../sdtv.js?id=山东卫视  .../sdtv.js?id=1  （名称 / 序号 / 频道号都能认）
- *   列表：  .../sdtv.js?id=list       返回 #EXTM3U，全部 9 个频道一次给齐
- *   默认不传 id 等同 id=list
+ * 用法（脚本放仓库 js/sdtv.js）：
+ *   单频道：.../sdtv.js?id=sdtv       山东卫视
+ *           .../sdtv.js?id=sepd       山东少儿
+ *           id 也可填 频道号(24581/24605)、序号(1/2)、中文名(山东卫视/山东少儿)
+ *   列表：  .../sdtv.js?id=list       返回 #EXTM3U（就是上面这 2 个频道）
+ *   诊断：  .../sdtv.js?id=debug      出错时返回更详细的排查信息
  *
- * 说明：播放地址带 CDN 签名（k/n 与时间戳 m/t），会过期。
- *       单频道模式每次点击都会重新换取新签名；列表模式是订阅时的快照，
- *       若长时间后某个台播不出，刷新一次订阅即可。
- *       实测播放 m3u8 与分片**不需要任何请求头**，所以列表模式也能直接播。
- *
- * 用到的酷9内置函数：ku9.post(url, headers, body)、ku9.get(url, headers)
+ * 注：播放地址带 CDN 签名（k/t）会过期。单频道模式每次点击都重新换取新签名。
+ *     实测播放 m3u8 与分片不需要任何请求头。
  * ---------------------------------------------------------------------------
  */
 
@@ -34,50 +33,32 @@
 // 配置区
 // ---------------------------------------------------------------------------
 
-// 鉴权交换接口
 var API_URL = 'https://feiying.litenews.cn/api/v1/auth/exchange';
 
-// 签名盐（页面里叫 mxpx）
+// 签名盐（页面里变量名 mxpx）
 var SIGN_SALT = 'QZMVKTRHPLXADJNE';
 
 // AES 参数（页面里 key 叫 aly，IV 是 16 个 '0'）
 var AES_KEY = 'BWRFYSNCOGIXUTPA';
 var AES_IV = '0000000000000000';
 
-// 调接口用的请求头。Origin / Referer 缺一不可（服务端 403），
-// 实测只给其中一个就能过，这里两个都给，稳一点。
-var API_HEADERS = {
-    'User-Agent':
-        'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
-    'Content-Type': 'text/plain',
-    Origin: 'https://v.iqilu.com',
-    Referer: 'https://v.iqilu.com/',
-};
+var UA =
+    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36';
 
-// 播放时的请求头（实测可留空，保留只为保险）
-var PLAY_HEADERS = {
-    Referer: 'https://v.iqilu.com/',
-};
+// Referer 决定 403 与否（必须带 iqilu 域名）；UA 不能为空。
+// Content-Type 依次尝试，前两个实测都可用；绝不能落到 x-www-form-urlencoded。
+var CONTENT_TYPES = ['text/plain', 'application/json', 'application/octet-stream'];
 
-// 频道表：key（英文字段）/ mark（_pdCid 频道号）/ name（中文名）
-// mark 来自各直播页里的 var _pdCid = "xxxxx";
+// 频道表（只做这两个台）
 var CHANNELS = [
     { key: 'sdtv', mark: '24581', name: '山东卫视' },
-    { key: 'qlpd', mark: '24584', name: '齐鲁频道' },
-    { key: 'ggpd', mark: '24602', name: '新闻频道' },
-    { key: 'typd', mark: '24587', name: '体育休闲' },
-    { key: 'shpd', mark: '24596', name: '生活频道' },
-    { key: 'zypd', mark: '24593', name: '综艺频道' },
-    { key: 'nkpd', mark: '24599', name: '农科频道' },
-    { key: 'yspd', mark: '24590', name: '文旅频道' },
-    { key: 'sepd', mark: '24605', name: '少儿频道' },
+    { key: 'sepd', mark: '24605', name: '山东少儿' },
 ];
 
 // ---------------------------------------------------------------------------
-// 编码工具（纯 JS，不依赖酷9 之外的任何库）
+// 编码工具
 // ---------------------------------------------------------------------------
 
-// 字符串 -> UTF-8 字节数组
 function utf8Bytes(str) {
     var s = String(str);
     var out = [];
@@ -88,15 +69,9 @@ function utf8Bytes(str) {
         } else if (c < 0x800) {
             out.push(0xc0 | (c >> 6), 0x80 | (c & 0x3f));
         } else if (c >= 0xd800 && c < 0xdc00 && i + 1 < s.length) {
-            // 代理对（emoji 等）
             var c2 = s.charCodeAt(++i);
             var cp = 0x10000 + ((c - 0xd800) << 10) + (c2 - 0xdc00);
-            out.push(
-                0xf0 | (cp >> 18),
-                0x80 | ((cp >> 12) & 0x3f),
-                0x80 | ((cp >> 6) & 0x3f),
-                0x80 | (cp & 0x3f)
-            );
+            out.push(0xf0 | (cp >> 18), 0x80 | ((cp >> 12) & 0x3f), 0x80 | ((cp >> 6) & 0x3f), 0x80 | (cp & 0x3f));
         } else {
             out.push(0xe0 | (c >> 12), 0x80 | ((c >> 6) & 0x3f), 0x80 | (c & 0x3f));
         }
@@ -104,7 +79,6 @@ function utf8Bytes(str) {
     return out;
 }
 
-// UTF-8 字节数组 -> 字符串
 function utf8Decode(bytes) {
     var out = '';
     var i = 0;
@@ -162,8 +136,8 @@ function b64encode(bytes) {
     return out;
 }
 
-// 注意：先把非 base64 字符与尾部 '=' 全部剥掉，再进 4 字符一组的主循环。
-// 若在循环里对 '=' 求 indexOf 得 -1 就 break，会静默少解出几个字节。
+// 先把非 base64 字符与尾部 '=' 全部剥掉，再进 4 字符一组的主循环，
+// 避免循环里对 '=' 求 indexOf 得 -1 就 break、静默少解出字节。
 function b64decode(str) {
     var clean = String(str).replace(/[^A-Za-z0-9+/]/g, '');
     var out = [];
@@ -191,7 +165,7 @@ function b64decode(str) {
 }
 
 // ---------------------------------------------------------------------------
-// MD5（用于接口签名 s）
+// MD5
 // ---------------------------------------------------------------------------
 
 var MD5_K = (function () {
@@ -211,12 +185,10 @@ function rotl32(x, c) {
     return (x << c) | (x >>> (32 - c));
 }
 
-// 返回小写十六进制摘要
 function md5hex(str) {
     var data = utf8Bytes(str);
     var bitLen = data.length * 8;
 
-    // 补位：0x80 + 若干 0，使长度 ≡ 56 (mod 64)，再接 8 字节小端长度
     var buf = data.slice(0);
     buf.push(0x80);
     while (buf.length % 64 !== 56) buf.push(0);
@@ -256,7 +228,6 @@ function md5hex(str) {
             var tmp = d;
             d = c;
             c = b;
-            // 先 |0 把和压成 int32（JS 的 & / | 结果是有符号数），再循环左移
             b = (b + rotl32((a + f + MD5_K[i] + m[g]) | 0, MD5_S[i])) | 0;
             a = tmp;
         }
@@ -278,8 +249,7 @@ function md5hex(str) {
 }
 
 // ---------------------------------------------------------------------------
-// AES-128（纯 JS：ECB 轮函数 + CBC 模式 + PKCS7）
-// 实现说明：S 盒用 GF(2^8) 求逆 + 仿射变换在运行时生成，避免抄错 256 项常量表。
+// AES-128（ECB 轮函数 + CBC + PKCS7；S 盒运行时生成，避免抄错常量表）
 // ---------------------------------------------------------------------------
 
 function gfMul(a, b) {
@@ -311,7 +281,7 @@ function rotl8(x, n) {
 var AES_SBOX = (function () {
     var s = [];
     for (var i = 0; i < 256; i++) {
-        var x = i === 0 ? 0 : gfPow(i, 254); // 乘法逆元
+        var x = i === 0 ? 0 : gfPow(i, 254);
         s.push((x ^ rotl8(x, 1) ^ rotl8(x, 2) ^ rotl8(x, 3) ^ rotl8(x, 4) ^ 0x63) & 0xff);
     }
     return s;
@@ -327,7 +297,6 @@ function xtime(a) {
     return ((a << 1) ^ (a & 0x80 ? 0x1b : 0)) & 0xff;
 }
 
-// 密钥扩展：16 字节 key -> 44 个字（每字 4 字节）
 function aesExpandKey(key) {
     var w = [];
     var i, j, t;
@@ -345,7 +314,6 @@ function aesExpandKey(key) {
     return w;
 }
 
-// state 采用列优先：state[4*col + row]
 function addRoundKey(s, w, round) {
     for (var col = 0; col < 4; col++) {
         var word = w[round * 4 + col];
@@ -457,108 +425,190 @@ function aesDecrypt(b64, keyStr, ivStr) {
 }
 
 // ---------------------------------------------------------------------------
-// 业务逻辑
+// HTTP 层
 // ---------------------------------------------------------------------------
+// 说明：酷9 不同版本对内建请求函数的定义并不一致，官方 Script.js 里是
+//   var res = ku9.post( url , headers , "***" );      // 返回 String
+// 而新版本以及大量实战脚本用的是
+//   var res = ku9.request( url, "POST", headers, body, true );  // 返回 {code, body}
+//   甚至 ku9.get(url) 也会返回 {code, body}
+// 所以这里不写死某一种，而是按候选顺序逐个试，用「能否解出 code:1」当判据。
 
-// 换取某个频道的带签名播放地址，失败返回 { error: '...' }
-function requestPlayUrl(mark) {
-    var t = new Date().getTime();
-    var s = md5hex(mark + t + SIGN_SALT);
-    var url = API_URL + '?t=' + t + '&s=' + s;
-    var body = aesEncrypt(JSON.stringify({ channelMark: mark }), AES_KEY, AES_IV);
-
-    var raw = ku9.post(url, API_HEADERS, body);
-    if (raw === null || raw === undefined || raw === '') {
-        return { error: '接口无响应' };
-    }
-
-    var text = String(raw).replace(/^\s+|\s+$/g, '');
-
-    // 服务端的防盗链拦截：说明 Origin / Referer 没送出去
-    if (text.indexOf('403 Forbidden') >= 0 || text.indexOf('<html') === 0) {
-        return { error: '接口返回 403，请求头未生效（需确认酷9 的 post 是否透传 headers）' };
-    }
-
-    // 参数不对时服务端返回明文 JSON，直接把 errmsg 抛出来，方便排查
-    if (text.charAt(0) === '{') {
-        var msg = text;
+// 把各种可能的返回值统一抽成 body 字符串
+function extractBody(raw) {
+    if (raw === null || raw === undefined) return '';
+    if (typeof raw === 'string') return raw;
+    if (typeof raw === 'object') {
+        if (typeof raw.body === 'string') return raw.body;
+        if (typeof raw.data === 'string') return raw.data;
+        if (typeof raw.text === 'string') return raw.text;
+        if (typeof raw.result === 'string') return raw.result;
         try {
-            var ej = JSON.parse(text);
-            msg = ej.errmsg || ej.msg || text;
+            return JSON.stringify(raw);
+        } catch (e) {
+            return '';
+        }
+    }
+    return String(raw);
+}
+
+// 候选调用方式。name 只用于出错时提示。
+var POST_APIS = [
+    { name: 'post(url,headers,body)', fn: function (u, h, b) { return ku9.post(u, h, b); } },
+    { name: 'request(url,POST,headers,body,true)', fn: function (u, h, b) { return ku9.request(u, 'POST', h, b, true); } },
+    { name: 'request(url,POST,headers,body)', fn: function (u, h, b) { return ku9.request(u, 'POST', h, b); } },
+    {
+        name: 'request({url,method,headers,body})',
+        fn: function (u, h, b) { return ku9.request({ url: u, method: 'POST', headers: h, body: b }); },
+    },
+    { name: 'getHeaders(url,headers,false,POST,body)', fn: function (u, h, b) { return ku9.getHeaders(u, h, false, 'POST', b); } },
+];
+
+function apiHeaders(contentType) {
+    return {
+        'User-Agent': UA,
+        'Content-Type': contentType,
+        Referer: 'https://v.iqilu.com/',
+        Origin: 'https://v.iqilu.com',
+    };
+}
+
+// 单次请求。返回 { ok, body, note, thrown }
+function callOnce(apiIdx, contentType, url, body) {
+    var api = POST_APIS[apiIdx];
+    var raw;
+    try {
+        raw = api.fn(url, apiHeaders(contentType), body);
+    } catch (e) {
+        // 该版本没有这个函数（TypeError）——后续就不用再试它了
+        return { ok: false, body: '', thrown: true, note: api.name + ' 不存在' };
+    }
+    var text = extractBody(raw);
+    if (!text) {
+        return { ok: false, body: '', note: api.name + ' 返回空(' + (raw === null ? 'null' : typeof raw) + ')' };
+    }
+    return { ok: true, body: text, note: api.name };
+}
+
+// 把服务端返回解析成播放地址
+// 返回 { url } 或 { err, kind }
+function parseResponse(text) {
+    var t = String(text).replace(/^\s+|\s+$/g, '');
+
+    // CDN 防盗链拦截
+    if (t.indexOf('403 Forbidden') >= 0 || t.indexOf('<html') === 0 || t.indexOf('<!DOCTYPE') === 0) {
+        return { kind: 'auth', err: '被 CDN 拦截(403)' };
+    }
+    // 明文错误 JSON
+    if (t.charAt(0) === '{') {
+        var msg = t;
+        try {
+            var ej = JSON.parse(t);
+            msg = ej.errmsg || ej.msg || t;
         } catch (e) {
             /* 保留原文 */
         }
-        return { error: '接口返回错误：' + msg };
+        return { kind: 'plain', err: msg };
     }
-
+    // 密文
     var plain;
     try {
-        plain = aesDecrypt(text, AES_KEY, AES_IV);
-    } catch (e) {
-        return { error: '响应解密失败：' + e };
+        plain = aesDecrypt(t, AES_KEY, AES_IV);
+    } catch (e2) {
+        return { kind: 'dec', err: '解密异常' };
     }
-
     var json;
     try {
         json = JSON.parse(plain);
-    } catch (e2) {
-        return { error: '响应不是合法 JSON：' + plain };
+    } catch (e3) {
+        // 解出来不是 JSON，通常意味着响应根本没经过这套 AES，或请求头/请求体没送达
+        return { kind: 'shape', err: '响应无法解析（请求头或请求体可能未正常送达）' };
     }
-
     if (json && json.code === 1 && json.data && String(json.data).indexOf('http') === 0) {
         return { url: String(json.data) };
     }
-    return { error: '接口返回异常：' + plain };
+    return { kind: 'shape', err: '接口返回 code≠1' };
 }
 
-// 按 key / 频道号 / 序号(从1) / 名称模糊 定位频道
+// 换取某频道播放地址
+// 逐一尝试「Content-Type × 请求函数」的全部组合，任一组能解出 code:1 就返回。
+// 正常情况下第一个组合就成，只有出问题时才会把矩阵跑完（用于最大化命中率）。
+function requestPlayUrl(mark, verbose) {
+    var body = aesEncrypt(JSON.stringify({ channelMark: mark }), AES_KEY, AES_IV);
+    var deadApi = {}; // 已确认不存在的请求函数，后续跳过
+    var notes = [];
+    var lastErr = '';
+
+    for (var c = 0; c < CONTENT_TYPES.length; c++) {
+        for (var i = 0; i < POST_APIS.length; i++) {
+            if (deadApi[i]) continue;
+
+            var t = new Date().getTime();
+            var s = md5hex(mark + t + SIGN_SALT);
+            var url = API_URL + '?t=' + t + '&s=' + s;
+
+            var r = callOnce(i, CONTENT_TYPES[c], url, body);
+            if (!r.ok) {
+                if (r.thrown) deadApi[i] = 1;
+                else if (notes.length < 4) notes.push(r.note);
+                continue;
+            }
+
+            var res = parseResponse(r.body);
+            if (res.url) return { url: res.url };
+
+            if (!lastErr) lastErr = res.err;
+            if (notes.length < 4) {
+                notes.push((c === 0 ? '' : CONTENT_TYPES[c] + '/') + POST_APIS[i].name + '→' + res.err);
+            }
+        }
+    }
+
+    if (!lastErr) {
+        return {
+            error: '接口无响应（' + (notes[0] || '所有请求方式均失败') + '）',
+            detail: verbose ? notes.join(' | ') : '',
+        };
+    }
+    return { error: lastErr, detail: verbose ? notes.join(' | ') : '' };
+}
+
+// ---------------------------------------------------------------------------
+// 业务逻辑
+// ---------------------------------------------------------------------------
+
 function findChannel(id) {
     if (!id) return null;
     var s = String(id);
     var i;
-
-    // 1) key 精确（sdtv / sepd ...）
-    for (i = 0; i < CHANNELS.length; i++) {
-        if (CHANNELS[i].key === s) return CHANNELS[i];
-    }
-    // 2) 频道号精确（24581 ...）
-    for (i = 0; i < CHANNELS.length; i++) {
-        if (CHANNELS[i].mark === s) return CHANNELS[i];
-    }
-    // 3) 名称精确
-    for (i = 0; i < CHANNELS.length; i++) {
-        if (CHANNELS[i].name === s) return CHANNELS[i];
-    }
-    // 4) 序号（从 1 开始）
+    for (i = 0; i < CHANNELS.length; i++) if (CHANNELS[i].key === s) return CHANNELS[i];
+    for (i = 0; i < CHANNELS.length; i++) if (CHANNELS[i].mark === s) return CHANNELS[i];
+    for (i = 0; i < CHANNELS.length; i++) if (CHANNELS[i].name === s) return CHANNELS[i];
     var n = parseInt(s, 10);
     if (!isNaN(n) && String(n) === s && n >= 1 && n <= CHANNELS.length) return CHANNELS[n - 1];
-    // 5) 名称模糊（山东卫视 / 少儿 ...）
-    for (i = 0; i < CHANNELS.length; i++) {
-        if (CHANNELS[i].name.indexOf(s) >= 0) return CHANNELS[i];
-    }
+    for (i = 0; i < CHANNELS.length; i++) if (CHANNELS[i].name.indexOf(s) >= 0) return CHANNELS[i];
     return null;
 }
 
-function channelKeys() {
+function channelHint() {
     var a = [];
     for (var i = 0; i < CHANNELS.length; i++) a.push(CHANNELS[i].key);
     return a.join(' / ');
 }
 
-// 列出全部频道 id 供报错提示
 function main(item) {
     var params = item || {};
     var id = params.id ? String(params.id) : 'list';
+    var verbose = id === 'debug';
 
-    // 列表模式：逐台换取，任何一个失败就跳过（不写入列表）
-    if (id === 'list') {
+    if (id === 'list' || verbose) {
         var lines = ['#EXTM3U'];
         var firstErr = '';
         for (var i = 0; i < CHANNELS.length; i++) {
             var ch = CHANNELS[i];
             var r;
             try {
-                r = requestPlayUrl(ch.mark);
+                r = requestPlayUrl(ch.mark, verbose);
             } catch (e) {
                 r = { error: String(e) };
             }
@@ -566,37 +616,34 @@ function main(item) {
                 lines.push('#EXTINF:-1,' + ch.name);
                 lines.push(r.url);
             } else if (!firstErr) {
-                firstErr = ch.name + '：' + r.error;
+                firstErr = ch.name + '：' + r.error + (r.detail || '');
             }
         }
         if (lines.length === 1) {
-            return { error: '全部频道获取失败（' + firstErr + '）' };
+            return { error: '获取失败（' + firstErr + '）' };
         }
         return { m3u8: lines.join('\n') };
     }
 
-    // 单频道模式：每次点击重新换取，拿最新签名
     var c = findChannel(id);
     if (!c) {
-        return {
-            error: '未找到频道：' + id + '（可用：' + channelKeys() + '，也可填频道名或序号）',
-        };
+        return { error: '未找到频道：' + id + '（可用：' + channelHint() + '，也可填频道名或序号）' };
     }
 
     var res;
     try {
-        res = requestPlayUrl(c.mark);
+        res = requestPlayUrl(c.mark, verbose);
     } catch (e2) {
         return { error: '获取「' + c.name + '」直播地址异常：' + e2 };
     }
     if (!res.url) {
-        return { error: '获取「' + c.name + '」直播地址失败：' + res.error };
+        return { error: '「' + c.name + '」获取失败：' + res.error + (res.detail || '') };
     }
 
-    return { url: res.url, headers: PLAY_HEADERS };
+    return { url: res.url, headers: {} };
 }
 
-// 兼容导出：保证网络脚本（eval / Function 包装）外层也能找到 main
+// 兼容导出：网络脚本（eval / Function 包装）外层也要能拿到 main
 (function (g) {
     g = g || (typeof globalThis !== 'undefined' ? globalThis : this);
     g.main = main;
