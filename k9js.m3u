@@ -1,5 +1,7 @@
 #EXTM3U x-tvg-url="https://gitee.com/taksssss/tv/raw/main/epg/51zmte1.xml.gz"
 # 卫视频道
+#EXTINF:-1 group-title="卫视频道",山东卫视
+https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/sdtv.js?id=sdtv
 #EXTINF:-1 group-title="卫视频道",内蒙古卫视
 https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/nmtv.js?id=3621481
 #EXTINF:-1 group-title="卫视频道" tvg-name="江苏卫视",江苏卫视
@@ -10,11 +12,13 @@ https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/hnntv.js?id=13
 # 少儿频道
 #EXTINF:-1 group-title="少儿频道" tvg-name="优漫卡通",优漫卡通
 https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/jstv.js?id=ymkt
+#EXTINF:-1 group-title="少儿频道",山东少儿
+https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/sdtv.js?id=sepd
 #EXTINF:-1 group-title="少儿频道" ,海南少儿
 https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/hnntv.js?id=7
 #EXTINF:-1 group-title="少儿频道",内蒙古少儿
 https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/nmtv.js?id=2318
-#EXTINF:-1 group-title="少儿频道" tvg-name="CDTV6",成都少儿频道
+#EXTINF:-1 group-title="少儿频道" tvg-name="CDTV6",成都少儿
 https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/cdtv.js?id=cdse
 
 # 江苏频道
