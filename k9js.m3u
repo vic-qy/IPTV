@@ -67,6 +67,22 @@ https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/jstv.js?id=jsjy
 #EXTINF:-1 group-title="江苏频道" tvg-name="江苏国际",江苏国际
 https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/jstv.js?id=jsgj
 
+# 河南频道
+#EXTINF:-1 tvg-name="新闻频道" group-title="河南频道",河南新闻
+https://gcore.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/hntv.js?id=xwpd
+#EXTINF:-1 tvg-name="都市频道" group-title="河南频道",河南都市
+https://gcore.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/hntv.js?id=dspd
+#EXTINF:-1 tvg-name="民生频道" group-title="河南频道",河南民生
+https://gcore.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/hntv.js?id=mspd
+#EXTINF:-1 tvg-name="法治频道" group-title="河南频道",河南法治
+https://gcore.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/hntv.js?id=fzpd
+#EXTINF:-1 tvg-name="公共频道" group-title="河南频道",河南公共
+https://gcore.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/hntv.js?id=ggpd
+#EXTINF:-1 tvg-name="河南乡村频道" group-title="河南频道",河南乡村
+https://gcore.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/hntv.js?id=xcpd
+#EXTINF:-1 tvg-name="电视剧频道" group-title="河南频道",河南电视剧
+https://gcore.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/hntv.js?id=dsjp
+
 
 # 海南频道
 #EXTINF:-1 group-title="海南频道" ,三沙卫视
