@@ -8,6 +8,10 @@ https://gcore.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/ysp.js?id=cctv6
 https://gcore.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/cztv.js?id=zjws
 #EXTINF:-1 tvg-name="河南卫视" group-title="卫视频道",河南卫视
 https://gcore.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/hntv.js?id=hnws
+#EXTINF:-1 tvg-name="深圳卫视4K超高清" group-title="卫视频道",深圳卫视4K
+https://gcore.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/sztv.js?id=tv4k
+#EXTINF:-1 tvg-name="深圳卫视" group-title="卫视频道",深圳卫视
+https://gcore.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/sztv.js?id=tv
 #EXTINF:-1 group-title="卫视频道",内蒙古卫视
 https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/nmtv.js?id=3621481
 #EXTINF:-1 group-title="卫视频道" tvg-name="江苏卫视",江苏卫视
@@ -68,19 +72,19 @@ https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/jstv.js?id=jsjy
 https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/jstv.js?id=jsgj
 
 # 河南频道
-#EXTINF:-1 tvg-name="新闻频道" group-title="河南频道",河南新闻
+#EXTINF:-1 tvg-name="河南新闻" group-title="河南频道",河南新闻
 https://gcore.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/hntv.js?id=xwpd
-#EXTINF:-1 tvg-name="都市频道" group-title="河南频道",河南都市
+#EXTINF:-1 tvg-name="河南都市" group-title="河南频道",河南都市
 https://gcore.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/hntv.js?id=dspd
-#EXTINF:-1 tvg-name="民生频道" group-title="河南频道",河南民生
+#EXTINF:-1 tvg-name="河南民生" group-title="河南频道",河南民生
 https://gcore.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/hntv.js?id=mspd
-#EXTINF:-1 tvg-name="法治频道" group-title="河南频道",河南法治
+#EXTINF:-1 tvg-name="河南法治" group-title="河南频道",河南法治
 https://gcore.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/hntv.js?id=fzpd
-#EXTINF:-1 tvg-name="公共频道" group-title="河南频道",河南公共
+#EXTINF:-1 tvg-name="河南公共" group-title="河南频道",河南公共
 https://gcore.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/hntv.js?id=ggpd
 #EXTINF:-1 tvg-name="河南乡村频道" group-title="河南频道",河南乡村
 https://gcore.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/hntv.js?id=xcpd
-#EXTINF:-1 tvg-name="电视剧频道" group-title="河南频道",河南电视剧
+#EXTINF:-1 tvg-name="河南电视剧" group-title="河南频道",河南电视剧
 https://gcore.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/hntv.js?id=dsjp
 
 
@@ -110,6 +114,16 @@ https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/cdtv.js?id=cdys
 https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/cdtv.js?id=cdgg
 
 # 广东频道
+#EXTINF:-1 tvg-name="深圳都市" group-title="广东频道",深圳都市
+https://gcore.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/sztv.js?id=ds
+#EXTINF:-1 tvg-name="深圳电视剧" group-title="广东频道",深圳电视剧
+https://gcore.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/sztv.js?id=dsj
+#EXTINF:-1 tvg-name="深圳少儿" group-title="广东频道",深圳少儿
+https://gcore.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/sztv.js?id=se
+#EXTINF:-1 tvg-name="深圳移动电视" group-title="广东频道",深圳移动电视
+https://gcore.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/sztv.js?id=ydds
+#EXTINF:-1 tvg-name="深圳国际" group-title="广东频道",深圳国际
+https://gcore.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/sztv.js?id=gj
 #EXTINF:-1 group-title="广东频道" tvg-name="广州综合频道",广州综合频道
 https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/gz.js?id=3001
 #EXTINF:-1 group-title="广东频道" tvg-name="广州新闻频道",广州新闻频道
