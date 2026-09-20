@@ -30,8 +30,8 @@ https://gcore.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/ysp.js?id=jy1
 https://gcore.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/cztv.js?id=sepd
 #EXTINF:-1 group-title="少儿频道" tvg-name="优漫卡通",优漫卡通
 https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/jstv.js?id=ymkt
-#EXTINF:-1 group-title="少儿频道",山东少儿
-https://gcore.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/sdtv.js?id=sepd
+#EXTINF:-1 tvg-name="深圳少儿" group-title="少儿频道",深圳少儿
+https://gcore.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/sztv.js?id=se
 #EXTINF:-1 group-title="少儿频道" ,海南少儿
 https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/hnntv.js?id=7
 #EXTINF:-1 group-title="少儿频道",内蒙古少儿
@@ -118,8 +118,6 @@ https://cdn.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/cdtv.js?id=cdgg
 https://gcore.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/sztv.js?id=ds
 #EXTINF:-1 tvg-name="深圳电视剧" group-title="广东频道",深圳电视剧
 https://gcore.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/sztv.js?id=dsj
-#EXTINF:-1 tvg-name="深圳少儿" group-title="广东频道",深圳少儿
-https://gcore.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/sztv.js?id=se
 #EXTINF:-1 tvg-name="深圳移动电视" group-title="广东频道",深圳移动电视
 https://gcore.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/sztv.js?id=ydds
 #EXTINF:-1 tvg-name="深圳国际" group-title="广东频道",深圳国际
