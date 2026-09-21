@@ -3,8 +3,24 @@
 # 央视频道
 #EXTINF:-1 tvg-name="CCTV1" group-title="央视频道",CCTV1综合
 https://gcore.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/cctvnews.js?id=cctv1
+#EXTINF:-1 tvg-name="CCTV2" group-title="央视频道",CCTV2财经
+https://gcore.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/cctvnews.js?id=cctv1
+#EXTINF:-1 tvg-name="CCTV4" group-title="央视频道",CCTV4中文国际
+https://gcore.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/cctvnews.js?id=cctv1
 #EXTINF:-1 tvg-name="CCTV6" group-title="央视频道",CCTV6电影
 https://gcore.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/ysp.js?id=cctv6
+#EXTINF:-1 tvg-name="CCTV7" group-title="央视频道",CCTV7军事
+https://gcore.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/cctvnews.js?id=cctv1
+#EXTINF:-1 tvg-name="CCTV10" group-title="央视频道",CCTV10科教
+https://gcore.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/cctvnews.js?id=cctv1
+#EXTINF:-1 tvg-name="CCTV12" group-title="央视频道",CCTV12社会与法
+https://gcore.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/cctvnews.js?id=cctv1
+#EXTINF:-1 tvg-name="CCTV13" group-title="央视频道",CCTV13新闻
+https://gcore.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/cctvnews.js?id=cctv1
+#EXTINF:-1 tvg-name="CCTV17" group-title="央视频道",CCTV17农业农村
+https://gcore.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/cctvnews.js?id=cctv1
+#EXTINF:-1 tvg-name="CCTV4K" group-title="央视频道",CCTV4K超高清
+https://gcore.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/cctvnews.js?id=cctv1
 # 卫视频道
 #EXTINF:-1 tvg-name="浙江卫视" group-title="卫视频道",浙江卫视
 https://gcore.jsdelivr.net/gh/vic-qy/IPTV@main/js/k-web/ku9/js/cztv.js?id=zjws
